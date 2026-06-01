@@ -1,0 +1,961 @@
+match_id,tournament_name,year,stage_name,match_date,home_team_name,away_team_name,home_team_score,away_team_score,result
+1,1930 FIFA Men's World Cup,1930,group stage,1930-07-13 00:00:00,France,Mexico,4,1,home team win
+2,1930 FIFA Men's World Cup,1930,group stage,1930-07-13 00:00:00,United States,Belgium,3,0,home team win
+3,1930 FIFA Men's World Cup,1930,group stage,1930-07-14 00:00:00,Yugoslavia,Brazil,2,1,home team win
+4,1930 FIFA Men's World Cup,1930,group stage,1930-07-14 00:00:00,Romania,Peru,3,1,home team win
+5,1930 FIFA Men's World Cup,1930,group stage,1930-07-15 00:00:00,Argentina,France,1,0,home team win
+6,1930 FIFA Men's World Cup,1930,group stage,1930-07-16 00:00:00,Chile,Mexico,3,0,home team win
+7,1930 FIFA Men's World Cup,1930,group stage,1930-07-17 00:00:00,Yugoslavia,Bolivia,4,0,home team win
+8,1930 FIFA Men's World Cup,1930,group stage,1930-07-17 00:00:00,United States,Paraguay,3,0,home team win
+9,1930 FIFA Men's World Cup,1930,group stage,1930-07-18 00:00:00,Uruguay,Peru,1,0,home team win
+10,1930 FIFA Men's World Cup,1930,group stage,1930-07-19 00:00:00,Chile,France,1,0,home team win
+11,1930 FIFA Men's World Cup,1930,group stage,1930-07-19 00:00:00,Argentina,Mexico,6,3,home team win
+12,1930 FIFA Men's World Cup,1930,group stage,1930-07-20 00:00:00,Brazil,Bolivia,4,0,home team win
+13,1930 FIFA Men's World Cup,1930,group stage,1930-07-20 00:00:00,Paraguay,Belgium,1,0,home team win
+14,1930 FIFA Men's World Cup,1930,group stage,1930-07-21 00:00:00,Uruguay,Romania,4,0,home team win
+15,1930 FIFA Men's World Cup,1930,group stage,1930-07-22 00:00:00,Argentina,Chile,3,1,home team win
+16,1930 FIFA Men's World Cup,1930,semi-finals,1930-07-26 00:00:00,Argentina,United States,6,1,home team win
+17,1930 FIFA Men's World Cup,1930,semi-finals,1930-07-27 00:00:00,Uruguay,Yugoslavia,6,1,home team win
+18,1930 FIFA Men's World Cup,1930,final,1930-07-30 00:00:00,Uruguay,Argentina,4,2,home team win
+19,1934 FIFA Men's World Cup,1934,round of 16,1934-05-27 00:00:00,Austria,France,3,2,home team win
+20,1934 FIFA Men's World Cup,1934,round of 16,1934-05-27 00:00:00,Czechoslovakia,Romania,2,1,home team win
+21,1934 FIFA Men's World Cup,1934,round of 16,1934-05-27 00:00:00,Germany,Belgium,5,2,home team win
+22,1934 FIFA Men's World Cup,1934,round of 16,1934-05-27 00:00:00,Hungary,Egypt,4,2,home team win
+23,1934 FIFA Men's World Cup,1934,round of 16,1934-05-27 00:00:00,Italy,United States,7,1,home team win
+24,1934 FIFA Men's World Cup,1934,round of 16,1934-05-27 00:00:00,Spain,Brazil,3,1,home team win
+25,1934 FIFA Men's World Cup,1934,round of 16,1934-05-27 00:00:00,Sweden,Argentina,3,2,home team win
+26,1934 FIFA Men's World Cup,1934,round of 16,1934-05-27 00:00:00,Switzerland,Netherlands,3,2,home team win
+30,1934 FIFA Men's World Cup,1934,quarter-finals,1934-05-31 00:00:00,Italy,Spain,1,1,draw
+29,1934 FIFA Men's World Cup,1934,quarter-finals,1934-05-31 00:00:00,Germany,Sweden,2,1,home team win
+27,1934 FIFA Men's World Cup,1934,quarter-finals,1934-05-31 00:00:00,Austria,Hungary,2,1,home team win
+28,1934 FIFA Men's World Cup,1934,quarter-finals,1934-05-31 00:00:00,Czechoslovakia,Switzerland,3,2,home team win
+32,1934 FIFA Men's World Cup,1934,semi-finals,1934-06-03 00:00:00,Czechoslovakia,Germany,3,1,home team win
+33,1934 FIFA Men's World Cup,1934,semi-finals,1934-06-03 00:00:00,Italy,Austria,1,0,home team win
+34,1934 FIFA Men's World Cup,1934,third-place match,1934-06-07 00:00:00,Germany,Austria,3,2,home team win
+35,1934 FIFA Men's World Cup,1934,final,1934-06-10 00:00:00,Italy,Czechoslovakia,2,1,home team win
+36,1938 FIFA Men's World Cup,1938,round of 16,1938-06-04 00:00:00,Switzerland,Germany,1,1,draw
+42,1938 FIFA Men's World Cup,1938,round of 16,1938-06-05 00:00:00,Czechoslovakia,Netherlands,3,0,home team win
+37,1938 FIFA Men's World Cup,1938,round of 16,1938-06-05 00:00:00,Cuba,Romania,3,3,draw
+38,1938 FIFA Men's World Cup,1938,round of 16,1938-06-05 00:00:00,France,Belgium,3,1,home team win
+39,1938 FIFA Men's World Cup,1938,round of 16,1938-06-05 00:00:00,Hungary,Dutch East Indies,6,0,home team win
+40,1938 FIFA Men's World Cup,1938,round of 16,1938-06-05 00:00:00,Italy,Norway,2,1,home team win
+41,1938 FIFA Men's World Cup,1938,round of 16,1938-06-05 00:00:00,Brazil,Poland,6,5,home team win
+48,1938 FIFA Men's World Cup,1938,quarter-finals,1938-06-12 00:00:00,Sweden,Cuba,8,0,home team win
+47,1938 FIFA Men's World Cup,1938,quarter-finals,1938-06-12 00:00:00,Italy,France,3,1,home team win
+46,1938 FIFA Men's World Cup,1938,quarter-finals,1938-06-12 00:00:00,Hungary,Switzerland,2,0,home team win
+45,1938 FIFA Men's World Cup,1938,quarter-finals,1938-06-12 00:00:00,Brazil,Czechoslovakia,1,1,draw
+50,1938 FIFA Men's World Cup,1938,semi-finals,1938-06-16 00:00:00,Hungary,Sweden,5,1,home team win
+51,1938 FIFA Men's World Cup,1938,semi-finals,1938-06-16 00:00:00,Italy,Brazil,2,1,home team win
+52,1938 FIFA Men's World Cup,1938,third-place match,1938-06-19 00:00:00,Brazil,Sweden,4,2,home team win
+53,1938 FIFA Men's World Cup,1938,final,1938-06-19 00:00:00,Italy,Hungary,4,2,home team win
+54,1950 FIFA Men's World Cup,1950,group stage,1950-06-24 00:00:00,Brazil,Mexico,4,0,home team win
+57,1950 FIFA Men's World Cup,1950,group stage,1950-06-25 00:00:00,Spain,United States,3,1,home team win
+55,1950 FIFA Men's World Cup,1950,group stage,1950-06-25 00:00:00,Yugoslavia,Switzerland,3,0,home team win
+56,1950 FIFA Men's World Cup,1950,group stage,1950-06-25 00:00:00,England,Chile,2,0,home team win
+58,1950 FIFA Men's World Cup,1950,group stage,1950-06-25 00:00:00,Sweden,Italy,3,2,home team win
+60,1950 FIFA Men's World Cup,1950,group stage,1950-06-28 00:00:00,Yugoslavia,Mexico,4,1,home team win
+59,1950 FIFA Men's World Cup,1950,group stage,1950-06-28 00:00:00,Brazil,Switzerland,2,2,draw
+63,1950 FIFA Men's World Cup,1950,group stage,1950-06-29 00:00:00,Sweden,Paraguay,2,2,draw
+62,1950 FIFA Men's World Cup,1950,group stage,1950-06-29 00:00:00,United States,England,1,0,home team win
+61,1950 FIFA Men's World Cup,1950,group stage,1950-06-29 00:00:00,Spain,Chile,2,0,home team win
+64,1950 FIFA Men's World Cup,1950,group stage,1950-07-01 00:00:00,Brazil,Yugoslavia,2,0,home team win
+65,1950 FIFA Men's World Cup,1950,group stage,1950-07-02 00:00:00,Chile,United States,5,2,home team win
+66,1950 FIFA Men's World Cup,1950,group stage,1950-07-02 00:00:00,Spain,England,1,0,home team win
+67,1950 FIFA Men's World Cup,1950,group stage,1950-07-02 00:00:00,Italy,Paraguay,2,0,home team win
+68,1950 FIFA Men's World Cup,1950,group stage,1950-07-02 00:00:00,Uruguay,Bolivia,8,0,home team win
+69,1950 FIFA Men's World Cup,1950,group stage,1950-07-02 00:00:00,Switzerland,Mexico,2,1,home team win
+70,1950 FIFA Men's World Cup,1950,final round,1950-07-09 00:00:00,Brazil,Sweden,7,1,home team win
+71,1950 FIFA Men's World Cup,1950,final round,1950-07-09 00:00:00,Uruguay,Spain,2,2,draw
+72,1950 FIFA Men's World Cup,1950,final round,1950-07-13 00:00:00,Brazil,Spain,6,1,home team win
+73,1950 FIFA Men's World Cup,1950,final round,1950-07-13 00:00:00,Uruguay,Sweden,3,2,home team win
+75,1950 FIFA Men's World Cup,1950,final round,1950-07-16 00:00:00,Uruguay,Brazil,2,1,home team win
+74,1950 FIFA Men's World Cup,1950,final round,1950-07-16 00:00:00,Sweden,Spain,3,1,home team win
+76,1954 FIFA Men's World Cup,1954,group stage,1954-06-16 00:00:00,Brazil,Mexico,5,0,home team win
+77,1954 FIFA Men's World Cup,1954,group stage,1954-06-16 00:00:00,Yugoslavia,France,1,0,home team win
+78,1954 FIFA Men's World Cup,1954,group stage,1954-06-16 00:00:00,Austria,Scotland,1,0,home team win
+79,1954 FIFA Men's World Cup,1954,group stage,1954-06-16 00:00:00,Uruguay,Czechoslovakia,2,0,home team win
+80,1954 FIFA Men's World Cup,1954,group stage,1954-06-17 00:00:00,Switzerland,Italy,2,1,home team win
+81,1954 FIFA Men's World Cup,1954,group stage,1954-06-17 00:00:00,Hungary,South Korea,9,0,home team win
+82,1954 FIFA Men's World Cup,1954,group stage,1954-06-17 00:00:00,West Germany,Turkey,4,1,home team win
+83,1954 FIFA Men's World Cup,1954,group stage,1954-06-17 00:00:00,England,Belgium,4,4,draw
+87,1954 FIFA Men's World Cup,1954,group stage,1954-06-19 00:00:00,France,Mexico,3,2,home team win
+84,1954 FIFA Men's World Cup,1954,group stage,1954-06-19 00:00:00,Uruguay,Scotland,7,0,home team win
+85,1954 FIFA Men's World Cup,1954,group stage,1954-06-19 00:00:00,Brazil,Yugoslavia,1,1,draw
+86,1954 FIFA Men's World Cup,1954,group stage,1954-06-19 00:00:00,Austria,Czechoslovakia,5,0,home team win
+90,1954 FIFA Men's World Cup,1954,group stage,1954-06-20 00:00:00,Italy,Belgium,4,1,home team win
+91,1954 FIFA Men's World Cup,1954,group stage,1954-06-20 00:00:00,England,Switzerland,2,0,home team win
+88,1954 FIFA Men's World Cup,1954,group stage,1954-06-20 00:00:00,Hungary,West Germany,8,3,home team win
+89,1954 FIFA Men's World Cup,1954,group stage,1954-06-20 00:00:00,Turkey,South Korea,7,0,home team win
+92,1954 FIFA Men's World Cup,1954,group stage,1954-06-23 00:00:00,West Germany,Turkey,7,2,home team win
+93,1954 FIFA Men's World Cup,1954,group stage,1954-06-23 00:00:00,Switzerland,Italy,4,1,home team win
+94,1954 FIFA Men's World Cup,1954,quarter-finals,1954-06-26 00:00:00,Austria,Switzerland,7,5,home team win
+95,1954 FIFA Men's World Cup,1954,quarter-finals,1954-06-26 00:00:00,Uruguay,England,4,2,home team win
+96,1954 FIFA Men's World Cup,1954,quarter-finals,1954-06-27 00:00:00,Hungary,Brazil,4,2,home team win
+97,1954 FIFA Men's World Cup,1954,quarter-finals,1954-06-27 00:00:00,West Germany,Yugoslavia,2,0,home team win
+98,1954 FIFA Men's World Cup,1954,semi-finals,1954-06-30 00:00:00,Hungary,Uruguay,4,2,home team win
+99,1954 FIFA Men's World Cup,1954,semi-finals,1954-06-30 00:00:00,West Germany,Austria,6,1,home team win
+100,1954 FIFA Men's World Cup,1954,third-place match,1954-07-03 00:00:00,Austria,Uruguay,3,1,home team win
+101,1954 FIFA Men's World Cup,1954,final,1954-07-04 00:00:00,West Germany,Hungary,3,2,home team win
+109,1958 FIFA Men's World Cup,1958,group stage,1958-06-08 00:00:00,Soviet Union,England,2,2,draw
+108,1958 FIFA Men's World Cup,1958,group stage,1958-06-08 00:00:00,Brazil,Austria,3,0,home team win
+107,1958 FIFA Men's World Cup,1958,group stage,1958-06-08 00:00:00,Hungary,Wales,1,1,draw
+106,1958 FIFA Men's World Cup,1958,group stage,1958-06-08 00:00:00,Yugoslavia,Scotland,1,1,draw
+105,1958 FIFA Men's World Cup,1958,group stage,1958-06-08 00:00:00,France,Paraguay,7,3,home team win
+103,1958 FIFA Men's World Cup,1958,group stage,1958-06-08 00:00:00,Argentina,West Germany,1,3,away team win
+102,1958 FIFA Men's World Cup,1958,group stage,1958-06-08 00:00:00,Sweden,Mexico,3,0,home team win
+104,1958 FIFA Men's World Cup,1958,group stage,1958-06-08 00:00:00,Northern Ireland,Czechoslovakia,1,0,home team win
+110,1958 FIFA Men's World Cup,1958,group stage,1958-06-11 00:00:00,Argentina,Northern Ireland,3,1,home team win
+111,1958 FIFA Men's World Cup,1958,group stage,1958-06-11 00:00:00,West Germany,Czechoslovakia,2,2,draw
+112,1958 FIFA Men's World Cup,1958,group stage,1958-06-11 00:00:00,Paraguay,Scotland,3,2,home team win
+113,1958 FIFA Men's World Cup,1958,group stage,1958-06-11 00:00:00,Yugoslavia,France,3,2,home team win
+114,1958 FIFA Men's World Cup,1958,group stage,1958-06-11 00:00:00,Mexico,Wales,1,1,draw
+115,1958 FIFA Men's World Cup,1958,group stage,1958-06-11 00:00:00,Brazil,England,0,0,draw
+116,1958 FIFA Men's World Cup,1958,group stage,1958-06-11 00:00:00,Soviet Union,Austria,2,0,home team win
+117,1958 FIFA Men's World Cup,1958,group stage,1958-06-12 00:00:00,Sweden,Hungary,2,1,home team win
+124,1958 FIFA Men's World Cup,1958,group stage,1958-06-15 00:00:00,Brazil,Soviet Union,2,0,home team win
+125,1958 FIFA Men's World Cup,1958,group stage,1958-06-15 00:00:00,England,Austria,2,2,draw
+122,1958 FIFA Men's World Cup,1958,group stage,1958-06-15 00:00:00,Paraguay,Yugoslavia,3,3,draw
+123,1958 FIFA Men's World Cup,1958,group stage,1958-06-15 00:00:00,Hungary,Mexico,4,0,home team win
+120,1958 FIFA Men's World Cup,1958,group stage,1958-06-15 00:00:00,West Germany,Northern Ireland,2,2,draw
+121,1958 FIFA Men's World Cup,1958,group stage,1958-06-15 00:00:00,France,Scotland,2,1,home team win
+119,1958 FIFA Men's World Cup,1958,group stage,1958-06-15 00:00:00,Czechoslovakia,Argentina,6,1,home team win
+118,1958 FIFA Men's World Cup,1958,group stage,1958-06-15 00:00:00,Sweden,Wales,0,0,draw
+126,1958 FIFA Men's World Cup,1958,group stage,1958-06-17 00:00:00,Northern Ireland,Czechoslovakia,2,1,home team win
+127,1958 FIFA Men's World Cup,1958,group stage,1958-06-17 00:00:00,Wales,Hungary,2,1,home team win
+128,1958 FIFA Men's World Cup,1958,group stage,1958-06-17 00:00:00,Soviet Union,England,1,0,home team win
+129,1958 FIFA Men's World Cup,1958,quarter-finals,1958-06-19 00:00:00,Brazil,Wales,1,0,home team win
+130,1958 FIFA Men's World Cup,1958,quarter-finals,1958-06-19 00:00:00,France,Northern Ireland,4,0,home team win
+131,1958 FIFA Men's World Cup,1958,quarter-finals,1958-06-19 00:00:00,Sweden,Soviet Union,2,0,home team win
+132,1958 FIFA Men's World Cup,1958,quarter-finals,1958-06-19 00:00:00,West Germany,Yugoslavia,1,0,home team win
+133,1958 FIFA Men's World Cup,1958,semi-finals,1958-06-24 00:00:00,Brazil,France,5,2,home team win
+134,1958 FIFA Men's World Cup,1958,semi-finals,1958-06-24 00:00:00,Sweden,West Germany,3,1,home team win
+135,1958 FIFA Men's World Cup,1958,third-place match,1958-06-28 00:00:00,France,West Germany,6,3,home team win
+136,1958 FIFA Men's World Cup,1958,final,1958-06-29 00:00:00,Brazil,Sweden,5,2,home team win
+137,1962 FIFA Men's World Cup,1962,group stage,1962-05-30 00:00:00,Uruguay,Colombia,2,1,home team win
+138,1962 FIFA Men's World Cup,1962,group stage,1962-05-30 00:00:00,Chile,Switzerland,3,1,home team win
+139,1962 FIFA Men's World Cup,1962,group stage,1962-05-30 00:00:00,Brazil,Mexico,2,0,home team win
+140,1962 FIFA Men's World Cup,1962,group stage,1962-05-30 00:00:00,Argentina,Bulgaria,1,0,home team win
+141,1962 FIFA Men's World Cup,1962,group stage,1962-05-31 00:00:00,Soviet Union,Yugoslavia,2,0,home team win
+142,1962 FIFA Men's World Cup,1962,group stage,1962-05-31 00:00:00,West Germany,Italy,0,0,draw
+143,1962 FIFA Men's World Cup,1962,group stage,1962-05-31 00:00:00,Czechoslovakia,Spain,1,0,home team win
+144,1962 FIFA Men's World Cup,1962,group stage,1962-05-31 00:00:00,Hungary,England,2,1,home team win
+145,1962 FIFA Men's World Cup,1962,group stage,1962-06-02 00:00:00,Yugoslavia,Uruguay,3,1,home team win
+146,1962 FIFA Men's World Cup,1962,group stage,1962-06-02 00:00:00,Chile,Italy,2,0,home team win
+147,1962 FIFA Men's World Cup,1962,group stage,1962-06-02 00:00:00,Brazil,Czechoslovakia,0,0,draw
+148,1962 FIFA Men's World Cup,1962,group stage,1962-06-02 00:00:00,England,Argentina,3,1,home team win
+151,1962 FIFA Men's World Cup,1962,group stage,1962-06-03 00:00:00,Spain,Mexico,1,0,home team win
+152,1962 FIFA Men's World Cup,1962,group stage,1962-06-03 00:00:00,Hungary,Bulgaria,6,1,home team win
+149,1962 FIFA Men's World Cup,1962,group stage,1962-06-03 00:00:00,Soviet Union,Colombia,4,4,draw
+150,1962 FIFA Men's World Cup,1962,group stage,1962-06-03 00:00:00,West Germany,Switzerland,2,1,home team win
+153,1962 FIFA Men's World Cup,1962,group stage,1962-06-06 00:00:00,Soviet Union,Uruguay,2,1,home team win
+154,1962 FIFA Men's World Cup,1962,group stage,1962-06-06 00:00:00,West Germany,Chile,2,0,home team win
+155,1962 FIFA Men's World Cup,1962,group stage,1962-06-06 00:00:00,Brazil,Spain,2,1,home team win
+156,1962 FIFA Men's World Cup,1962,group stage,1962-06-06 00:00:00,Hungary,Argentina,0,0,draw
+157,1962 FIFA Men's World Cup,1962,group stage,1962-06-07 00:00:00,Yugoslavia,Colombia,5,0,home team win
+158,1962 FIFA Men's World Cup,1962,group stage,1962-06-07 00:00:00,Italy,Switzerland,3,0,home team win
+159,1962 FIFA Men's World Cup,1962,group stage,1962-06-07 00:00:00,Mexico,Czechoslovakia,3,1,home team win
+160,1962 FIFA Men's World Cup,1962,group stage,1962-06-07 00:00:00,England,Bulgaria,0,0,draw
+161,1962 FIFA Men's World Cup,1962,quarter-finals,1962-06-10 00:00:00,Brazil,England,3,1,home team win
+162,1962 FIFA Men's World Cup,1962,quarter-finals,1962-06-10 00:00:00,Chile,Soviet Union,2,1,home team win
+163,1962 FIFA Men's World Cup,1962,quarter-finals,1962-06-10 00:00:00,Czechoslovakia,Hungary,1,0,home team win
+164,1962 FIFA Men's World Cup,1962,quarter-finals,1962-06-10 00:00:00,Yugoslavia,West Germany,1,0,home team win
+166,1962 FIFA Men's World Cup,1962,semi-finals,1962-06-13 00:00:00,Czechoslovakia,Yugoslavia,3,1,home team win
+165,1962 FIFA Men's World Cup,1962,semi-finals,1962-06-13 00:00:00,Brazil,Chile,4,2,home team win
+167,1962 FIFA Men's World Cup,1962,third-place match,1962-06-16 00:00:00,Chile,Yugoslavia,1,0,home team win
+168,1962 FIFA Men's World Cup,1962,final,1962-06-17 00:00:00,Brazil,Czechoslovakia,3,1,home team win
+169,1966 FIFA Men's World Cup,1966,group stage,1966-07-11 00:00:00,England,Uruguay,0,0,draw
+170,1966 FIFA Men's World Cup,1966,group stage,1966-07-12 00:00:00,West Germany,Switzerland,5,0,home team win
+171,1966 FIFA Men's World Cup,1966,group stage,1966-07-12 00:00:00,Brazil,Bulgaria,2,0,home team win
+172,1966 FIFA Men's World Cup,1966,group stage,1966-07-12 00:00:00,Soviet Union,North Korea,3,0,home team win
+174,1966 FIFA Men's World Cup,1966,group stage,1966-07-13 00:00:00,Argentina,Spain,2,1,home team win
+173,1966 FIFA Men's World Cup,1966,group stage,1966-07-13 00:00:00,France,Mexico,1,1,draw
+175,1966 FIFA Men's World Cup,1966,group stage,1966-07-13 00:00:00,Portugal,Hungary,3,1,home team win
+176,1966 FIFA Men's World Cup,1966,group stage,1966-07-13 00:00:00,Italy,Chile,2,0,home team win
+177,1966 FIFA Men's World Cup,1966,group stage,1966-07-15 00:00:00,Uruguay,France,2,1,home team win
+178,1966 FIFA Men's World Cup,1966,group stage,1966-07-15 00:00:00,Spain,Switzerland,2,1,home team win
+179,1966 FIFA Men's World Cup,1966,group stage,1966-07-15 00:00:00,Hungary,Brazil,3,1,home team win
+180,1966 FIFA Men's World Cup,1966,group stage,1966-07-15 00:00:00,Chile,North Korea,1,1,draw
+184,1966 FIFA Men's World Cup,1966,group stage,1966-07-16 00:00:00,England,Mexico,2,0,home team win
+183,1966 FIFA Men's World Cup,1966,group stage,1966-07-16 00:00:00,Soviet Union,Italy,1,0,home team win
+181,1966 FIFA Men's World Cup,1966,group stage,1966-07-16 00:00:00,Argentina,West Germany,0,0,draw
+182,1966 FIFA Men's World Cup,1966,group stage,1966-07-16 00:00:00,Portugal,Bulgaria,3,0,home team win
+185,1966 FIFA Men's World Cup,1966,group stage,1966-07-19 00:00:00,Mexico,Uruguay,0,0,draw
+186,1966 FIFA Men's World Cup,1966,group stage,1966-07-19 00:00:00,Argentina,Switzerland,2,0,home team win
+187,1966 FIFA Men's World Cup,1966,group stage,1966-07-19 00:00:00,Portugal,Brazil,3,1,home team win
+188,1966 FIFA Men's World Cup,1966,group stage,1966-07-19 00:00:00,North Korea,Italy,1,0,home team win
+189,1966 FIFA Men's World Cup,1966,group stage,1966-07-20 00:00:00,England,France,2,0,home team win
+190,1966 FIFA Men's World Cup,1966,group stage,1966-07-20 00:00:00,West Germany,Spain,2,1,home team win
+191,1966 FIFA Men's World Cup,1966,group stage,1966-07-20 00:00:00,Hungary,Bulgaria,3,1,home team win
+192,1966 FIFA Men's World Cup,1966,group stage,1966-07-20 00:00:00,Soviet Union,Chile,2,1,home team win
+196,1966 FIFA Men's World Cup,1966,quarter-finals,1966-07-23 00:00:00,West Germany,Uruguay,4,0,home team win
+193,1966 FIFA Men's World Cup,1966,quarter-finals,1966-07-23 00:00:00,England,Argentina,1,0,home team win
+194,1966 FIFA Men's World Cup,1966,quarter-finals,1966-07-23 00:00:00,Portugal,North Korea,5,3,home team win
+195,1966 FIFA Men's World Cup,1966,quarter-finals,1966-07-23 00:00:00,Soviet Union,Hungary,2,1,home team win
+197,1966 FIFA Men's World Cup,1966,semi-finals,1966-07-25 00:00:00,West Germany,Soviet Union,2,1,home team win
+198,1966 FIFA Men's World Cup,1966,semi-finals,1966-07-26 00:00:00,England,Portugal,2,1,home team win
+199,1966 FIFA Men's World Cup,1966,third-place match,1966-07-28 00:00:00,Portugal,Soviet Union,2,1,home team win
+200,1966 FIFA Men's World Cup,1966,final,1966-07-30 00:00:00,England,West Germany,4,2,home team win
+201,1970 FIFA Men's World Cup,1970,group stage,1970-05-31 00:00:00,Mexico,Soviet Union,0,0,draw
+202,1970 FIFA Men's World Cup,1970,group stage,1970-06-02 00:00:00,Uruguay,Israel,2,0,home team win
+203,1970 FIFA Men's World Cup,1970,group stage,1970-06-02 00:00:00,England,Romania,1,0,home team win
+204,1970 FIFA Men's World Cup,1970,group stage,1970-06-02 00:00:00,Peru,Bulgaria,3,2,home team win
+205,1970 FIFA Men's World Cup,1970,group stage,1970-06-03 00:00:00,Belgium,El Salvador,3,0,home team win
+206,1970 FIFA Men's World Cup,1970,group stage,1970-06-03 00:00:00,Italy,Sweden,1,0,home team win
+207,1970 FIFA Men's World Cup,1970,group stage,1970-06-03 00:00:00,Brazil,Czechoslovakia,4,1,home team win
+208,1970 FIFA Men's World Cup,1970,group stage,1970-06-03 00:00:00,West Germany,Morocco,2,1,home team win
+212,1970 FIFA Men's World Cup,1970,group stage,1970-06-06 00:00:00,Peru,Morocco,3,0,home team win
+211,1970 FIFA Men's World Cup,1970,group stage,1970-06-06 00:00:00,Romania,Czechoslovakia,2,1,home team win
+210,1970 FIFA Men's World Cup,1970,group stage,1970-06-06 00:00:00,Uruguay,Italy,0,0,draw
+209,1970 FIFA Men's World Cup,1970,group stage,1970-06-06 00:00:00,Soviet Union,Belgium,4,1,home team win
+213,1970 FIFA Men's World Cup,1970,group stage,1970-06-07 00:00:00,Mexico,El Salvador,4,0,home team win
+214,1970 FIFA Men's World Cup,1970,group stage,1970-06-07 00:00:00,Sweden,Israel,1,1,draw
+215,1970 FIFA Men's World Cup,1970,group stage,1970-06-07 00:00:00,Brazil,England,1,0,home team win
+216,1970 FIFA Men's World Cup,1970,group stage,1970-06-07 00:00:00,West Germany,Bulgaria,5,2,home team win
+217,1970 FIFA Men's World Cup,1970,group stage,1970-06-10 00:00:00,Soviet Union,El Salvador,2,0,home team win
+218,1970 FIFA Men's World Cup,1970,group stage,1970-06-10 00:00:00,Sweden,Uruguay,1,0,home team win
+219,1970 FIFA Men's World Cup,1970,group stage,1970-06-10 00:00:00,Brazil,Romania,3,2,home team win
+220,1970 FIFA Men's World Cup,1970,group stage,1970-06-10 00:00:00,West Germany,Peru,3,1,home team win
+223,1970 FIFA Men's World Cup,1970,group stage,1970-06-11 00:00:00,England,Czechoslovakia,1,0,home team win
+224,1970 FIFA Men's World Cup,1970,group stage,1970-06-11 00:00:00,Bulgaria,Morocco,1,1,draw
+221,1970 FIFA Men's World Cup,1970,group stage,1970-06-11 00:00:00,Mexico,Belgium,1,0,home team win
+222,1970 FIFA Men's World Cup,1970,group stage,1970-06-11 00:00:00,Italy,Israel,0,0,draw
+225,1970 FIFA Men's World Cup,1970,quarter-finals,1970-06-14 00:00:00,Brazil,Peru,4,2,home team win
+226,1970 FIFA Men's World Cup,1970,quarter-finals,1970-06-14 00:00:00,Italy,Mexico,4,1,home team win
+227,1970 FIFA Men's World Cup,1970,quarter-finals,1970-06-14 00:00:00,Soviet Union,Uruguay,0,1,away team win
+228,1970 FIFA Men's World Cup,1970,quarter-finals,1970-06-14 00:00:00,West Germany,England,3,2,home team win
+229,1970 FIFA Men's World Cup,1970,semi-finals,1970-06-17 00:00:00,Brazil,Uruguay,3,1,home team win
+230,1970 FIFA Men's World Cup,1970,semi-finals,1970-06-17 00:00:00,Italy,West Germany,4,3,home team win
+231,1970 FIFA Men's World Cup,1970,third-place match,1970-06-20 00:00:00,West Germany,Uruguay,1,0,home team win
+232,1970 FIFA Men's World Cup,1970,final,1970-06-21 00:00:00,Brazil,Italy,4,1,home team win
+233,1974 FIFA Men's World Cup,1974,group stage,1974-06-13 00:00:00,Brazil,Yugoslavia,0,0,draw
+236,1974 FIFA Men's World Cup,1974,group stage,1974-06-14 00:00:00,Zaire,Scotland,0,2,away team win
+234,1974 FIFA Men's World Cup,1974,group stage,1974-06-14 00:00:00,West Germany,Chile,1,0,home team win
+235,1974 FIFA Men's World Cup,1974,group stage,1974-06-14 00:00:00,East Germany,Australia,2,0,home team win
+239,1974 FIFA Men's World Cup,1974,group stage,1974-06-15 00:00:00,Italy,Haiti,3,1,home team win
+240,1974 FIFA Men's World Cup,1974,group stage,1974-06-15 00:00:00,Poland,Argentina,3,2,home team win
+237,1974 FIFA Men's World Cup,1974,group stage,1974-06-15 00:00:00,Sweden,Bulgaria,0,0,draw
+238,1974 FIFA Men's World Cup,1974,group stage,1974-06-15 00:00:00,Uruguay,Netherlands,0,2,away team win
+244,1974 FIFA Men's World Cup,1974,group stage,1974-06-18 00:00:00,Yugoslavia,Zaire,9,0,home team win
+243,1974 FIFA Men's World Cup,1974,group stage,1974-06-18 00:00:00,Scotland,Brazil,0,0,draw
+242,1974 FIFA Men's World Cup,1974,group stage,1974-06-18 00:00:00,Chile,East Germany,1,1,draw
+241,1974 FIFA Men's World Cup,1974,group stage,1974-06-18 00:00:00,Australia,West Germany,0,3,away team win
+245,1974 FIFA Men's World Cup,1974,group stage,1974-06-19 00:00:00,Bulgaria,Uruguay,1,1,draw
+246,1974 FIFA Men's World Cup,1974,group stage,1974-06-19 00:00:00,Netherlands,Sweden,0,0,draw
+247,1974 FIFA Men's World Cup,1974,group stage,1974-06-19 00:00:00,Argentina,Italy,1,1,draw
+248,1974 FIFA Men's World Cup,1974,group stage,1974-06-19 00:00:00,Haiti,Poland,0,7,away team win
+249,1974 FIFA Men's World Cup,1974,group stage,1974-06-22 00:00:00,Australia,Chile,0,0,draw
+250,1974 FIFA Men's World Cup,1974,group stage,1974-06-22 00:00:00,Scotland,Yugoslavia,1,1,draw
+251,1974 FIFA Men's World Cup,1974,group stage,1974-06-22 00:00:00,Zaire,Brazil,0,3,away team win
+252,1974 FIFA Men's World Cup,1974,group stage,1974-06-22 00:00:00,East Germany,West Germany,1,0,home team win
+255,1974 FIFA Men's World Cup,1974,group stage,1974-06-23 00:00:00,Argentina,Haiti,4,1,home team win
+256,1974 FIFA Men's World Cup,1974,group stage,1974-06-23 00:00:00,Poland,Italy,2,1,home team win
+253,1974 FIFA Men's World Cup,1974,group stage,1974-06-23 00:00:00,Bulgaria,Netherlands,1,4,away team win
+254,1974 FIFA Men's World Cup,1974,group stage,1974-06-23 00:00:00,Sweden,Uruguay,3,0,home team win
+257,1974 FIFA Men's World Cup,1974,second group stage,1974-06-26 00:00:00,Yugoslavia,West Germany,0,2,away team win
+258,1974 FIFA Men's World Cup,1974,second group stage,1974-06-26 00:00:00,Brazil,East Germany,1,0,home team win
+259,1974 FIFA Men's World Cup,1974,second group stage,1974-06-26 00:00:00,Netherlands,Argentina,4,0,home team win
+260,1974 FIFA Men's World Cup,1974,second group stage,1974-06-26 00:00:00,Sweden,Poland,0,1,away team win
+261,1974 FIFA Men's World Cup,1974,second group stage,1974-06-30 00:00:00,Argentina,Brazil,1,2,away team win
+262,1974 FIFA Men's World Cup,1974,second group stage,1974-06-30 00:00:00,East Germany,Netherlands,0,2,away team win
+263,1974 FIFA Men's World Cup,1974,second group stage,1974-06-30 00:00:00,Poland,Yugoslavia,2,1,home team win
+264,1974 FIFA Men's World Cup,1974,second group stage,1974-06-30 00:00:00,West Germany,Sweden,4,2,home team win
+265,1974 FIFA Men's World Cup,1974,second group stage,1974-07-03 00:00:00,Poland,West Germany,0,1,away team win
+266,1974 FIFA Men's World Cup,1974,second group stage,1974-07-03 00:00:00,Argentina,East Germany,1,1,draw
+267,1974 FIFA Men's World Cup,1974,second group stage,1974-07-03 00:00:00,Netherlands,Brazil,2,0,home team win
+268,1974 FIFA Men's World Cup,1974,second group stage,1974-07-03 00:00:00,Sweden,Yugoslavia,2,1,home team win
+269,1974 FIFA Men's World Cup,1974,third-place match,1974-07-06 00:00:00,Brazil,Poland,0,1,away team win
+270,1974 FIFA Men's World Cup,1974,final,1974-07-07 00:00:00,Netherlands,West Germany,1,2,away team win
+271,1978 FIFA Men's World Cup,1978,group stage,1978-06-01 00:00:00,West Germany,Poland,0,0,draw
+272,1978 FIFA Men's World Cup,1978,group stage,1978-06-02 00:00:00,Italy,France,2,1,home team win
+273,1978 FIFA Men's World Cup,1978,group stage,1978-06-02 00:00:00,Tunisia,Mexico,3,1,home team win
+274,1978 FIFA Men's World Cup,1978,group stage,1978-06-02 00:00:00,Argentina,Hungary,2,1,home team win
+275,1978 FIFA Men's World Cup,1978,group stage,1978-06-03 00:00:00,Austria,Spain,2,1,home team win
+276,1978 FIFA Men's World Cup,1978,group stage,1978-06-03 00:00:00,Brazil,Sweden,1,1,draw
+277,1978 FIFA Men's World Cup,1978,group stage,1978-06-03 00:00:00,Netherlands,Iran,3,0,home team win
+278,1978 FIFA Men's World Cup,1978,group stage,1978-06-03 00:00:00,Peru,Scotland,3,1,home team win
+279,1978 FIFA Men's World Cup,1978,group stage,1978-06-06 00:00:00,Italy,Hungary,3,1,home team win
+280,1978 FIFA Men's World Cup,1978,group stage,1978-06-06 00:00:00,Poland,Tunisia,1,0,home team win
+281,1978 FIFA Men's World Cup,1978,group stage,1978-06-06 00:00:00,West Germany,Mexico,6,0,home team win
+282,1978 FIFA Men's World Cup,1978,group stage,1978-06-06 00:00:00,Argentina,France,2,1,home team win
+286,1978 FIFA Men's World Cup,1978,group stage,1978-06-07 00:00:00,Scotland,Iran,1,1,draw
+285,1978 FIFA Men's World Cup,1978,group stage,1978-06-07 00:00:00,Netherlands,Peru,0,0,draw
+283,1978 FIFA Men's World Cup,1978,group stage,1978-06-07 00:00:00,Austria,Sweden,1,0,home team win
+284,1978 FIFA Men's World Cup,1978,group stage,1978-06-07 00:00:00,Brazil,Spain,0,0,draw
+287,1978 FIFA Men's World Cup,1978,group stage,1978-06-10 00:00:00,France,Hungary,3,1,home team win
+288,1978 FIFA Men's World Cup,1978,group stage,1978-06-10 00:00:00,Poland,Mexico,3,1,home team win
+289,1978 FIFA Men's World Cup,1978,group stage,1978-06-10 00:00:00,West Germany,Tunisia,0,0,draw
+290,1978 FIFA Men's World Cup,1978,group stage,1978-06-10 00:00:00,Argentina,Italy,0,1,away team win
+291,1978 FIFA Men's World Cup,1978,group stage,1978-06-11 00:00:00,Brazil,Austria,1,0,home team win
+292,1978 FIFA Men's World Cup,1978,group stage,1978-06-11 00:00:00,Spain,Sweden,1,0,home team win
+293,1978 FIFA Men's World Cup,1978,group stage,1978-06-11 00:00:00,Peru,Iran,4,1,home team win
+294,1978 FIFA Men's World Cup,1978,group stage,1978-06-11 00:00:00,Scotland,Netherlands,3,2,home team win
+298,1978 FIFA Men's World Cup,1978,second group stage,1978-06-14 00:00:00,Argentina,Poland,2,0,home team win
+295,1978 FIFA Men's World Cup,1978,second group stage,1978-06-14 00:00:00,Austria,Netherlands,1,5,away team win
+296,1978 FIFA Men's World Cup,1978,second group stage,1978-06-14 00:00:00,Italy,West Germany,0,0,draw
+297,1978 FIFA Men's World Cup,1978,second group stage,1978-06-14 00:00:00,Brazil,Peru,3,0,home team win
+301,1978 FIFA Men's World Cup,1978,second group stage,1978-06-18 00:00:00,Netherlands,West Germany,2,2,draw
+302,1978 FIFA Men's World Cup,1978,second group stage,1978-06-18 00:00:00,Argentina,Brazil,0,0,draw
+299,1978 FIFA Men's World Cup,1978,second group stage,1978-06-18 00:00:00,Peru,Poland,0,1,away team win
+300,1978 FIFA Men's World Cup,1978,second group stage,1978-06-18 00:00:00,Italy,Austria,1,0,home team win
+303,1978 FIFA Men's World Cup,1978,second group stage,1978-06-21 00:00:00,Austria,West Germany,3,2,home team win
+304,1978 FIFA Men's World Cup,1978,second group stage,1978-06-21 00:00:00,Italy,Netherlands,1,2,away team win
+305,1978 FIFA Men's World Cup,1978,second group stage,1978-06-21 00:00:00,Brazil,Poland,3,1,home team win
+306,1978 FIFA Men's World Cup,1978,second group stage,1978-06-21 00:00:00,Argentina,Peru,6,0,home team win
+307,1978 FIFA Men's World Cup,1978,third-place match,1978-06-24 00:00:00,Brazil,Italy,2,1,home team win
+308,1978 FIFA Men's World Cup,1978,final,1978-06-25 00:00:00,Argentina,Netherlands,3,1,home team win
+309,1982 FIFA Men's World Cup,1982,group stage,1982-06-13 00:00:00,Argentina,Belgium,0,1,away team win
+310,1982 FIFA Men's World Cup,1982,group stage,1982-06-14 00:00:00,Italy,Poland,0,0,draw
+311,1982 FIFA Men's World Cup,1982,group stage,1982-06-14 00:00:00,Brazil,Soviet Union,2,1,home team win
+312,1982 FIFA Men's World Cup,1982,group stage,1982-06-15 00:00:00,Peru,Cameroon,0,0,draw
+313,1982 FIFA Men's World Cup,1982,group stage,1982-06-15 00:00:00,Hungary,El Salvador,10,1,home team win
+314,1982 FIFA Men's World Cup,1982,group stage,1982-06-15 00:00:00,Scotland,New Zealand,5,2,home team win
+317,1982 FIFA Men's World Cup,1982,group stage,1982-06-16 00:00:00,Spain,Honduras,1,1,draw
+316,1982 FIFA Men's World Cup,1982,group stage,1982-06-16 00:00:00,England,France,3,1,home team win
+315,1982 FIFA Men's World Cup,1982,group stage,1982-06-16 00:00:00,West Germany,Algeria,1,2,away team win
+318,1982 FIFA Men's World Cup,1982,group stage,1982-06-17 00:00:00,Chile,Austria,0,1,away team win
+319,1982 FIFA Men's World Cup,1982,group stage,1982-06-17 00:00:00,Czechoslovakia,Kuwait,1,1,draw
+320,1982 FIFA Men's World Cup,1982,group stage,1982-06-17 00:00:00,Yugoslavia,Northern Ireland,0,0,draw
+321,1982 FIFA Men's World Cup,1982,group stage,1982-06-18 00:00:00,Italy,Peru,1,1,draw
+322,1982 FIFA Men's World Cup,1982,group stage,1982-06-18 00:00:00,Argentina,Hungary,4,1,home team win
+323,1982 FIFA Men's World Cup,1982,group stage,1982-06-18 00:00:00,Brazil,Scotland,4,1,home team win
+324,1982 FIFA Men's World Cup,1982,group stage,1982-06-19 00:00:00,Poland,Cameroon,0,0,draw
+325,1982 FIFA Men's World Cup,1982,group stage,1982-06-19 00:00:00,Belgium,El Salvador,1,0,home team win
+326,1982 FIFA Men's World Cup,1982,group stage,1982-06-19 00:00:00,Soviet Union,New Zealand,3,0,home team win
+329,1982 FIFA Men's World Cup,1982,group stage,1982-06-20 00:00:00,Spain,Yugoslavia,2,1,home team win
+327,1982 FIFA Men's World Cup,1982,group stage,1982-06-20 00:00:00,West Germany,Chile,4,1,home team win
+328,1982 FIFA Men's World Cup,1982,group stage,1982-06-20 00:00:00,England,Czechoslovakia,2,0,home team win
+332,1982 FIFA Men's World Cup,1982,group stage,1982-06-21 00:00:00,Honduras,Northern Ireland,1,1,draw
+331,1982 FIFA Men's World Cup,1982,group stage,1982-06-21 00:00:00,France,Kuwait,4,1,home team win
+330,1982 FIFA Men's World Cup,1982,group stage,1982-06-21 00:00:00,Algeria,Austria,0,2,away team win
+333,1982 FIFA Men's World Cup,1982,group stage,1982-06-22 00:00:00,Poland,Peru,5,1,home team win
+334,1982 FIFA Men's World Cup,1982,group stage,1982-06-22 00:00:00,Belgium,Hungary,1,1,draw
+335,1982 FIFA Men's World Cup,1982,group stage,1982-06-22 00:00:00,Soviet Union,Scotland,2,2,draw
+336,1982 FIFA Men's World Cup,1982,group stage,1982-06-23 00:00:00,Italy,Cameroon,1,1,draw
+337,1982 FIFA Men's World Cup,1982,group stage,1982-06-23 00:00:00,Argentina,El Salvador,2,0,home team win
+338,1982 FIFA Men's World Cup,1982,group stage,1982-06-23 00:00:00,Brazil,New Zealand,4,0,home team win
+339,1982 FIFA Men's World Cup,1982,group stage,1982-06-24 00:00:00,Algeria,Chile,3,2,home team win
+340,1982 FIFA Men's World Cup,1982,group stage,1982-06-24 00:00:00,France,Czechoslovakia,1,1,draw
+341,1982 FIFA Men's World Cup,1982,group stage,1982-06-24 00:00:00,Honduras,Yugoslavia,0,1,away team win
+342,1982 FIFA Men's World Cup,1982,group stage,1982-06-25 00:00:00,West Germany,Austria,1,0,home team win
+343,1982 FIFA Men's World Cup,1982,group stage,1982-06-25 00:00:00,England,Kuwait,1,0,home team win
+344,1982 FIFA Men's World Cup,1982,group stage,1982-06-25 00:00:00,Spain,Northern Ireland,0,1,away team win
+346,1982 FIFA Men's World Cup,1982,second group stage,1982-06-28 00:00:00,Poland,Belgium,3,0,home team win
+345,1982 FIFA Men's World Cup,1982,second group stage,1982-06-28 00:00:00,Austria,France,0,1,away team win
+348,1982 FIFA Men's World Cup,1982,second group stage,1982-06-29 00:00:00,West Germany,England,0,0,draw
+347,1982 FIFA Men's World Cup,1982,second group stage,1982-06-29 00:00:00,Italy,Argentina,2,1,home team win
+349,1982 FIFA Men's World Cup,1982,second group stage,1982-07-01 00:00:00,Austria,Northern Ireland,2,2,draw
+350,1982 FIFA Men's World Cup,1982,second group stage,1982-07-01 00:00:00,Belgium,Soviet Union,0,1,away team win
+351,1982 FIFA Men's World Cup,1982,second group stage,1982-07-02 00:00:00,Argentina,Brazil,1,3,away team win
+352,1982 FIFA Men's World Cup,1982,second group stage,1982-07-02 00:00:00,West Germany,Spain,2,1,home team win
+353,1982 FIFA Men's World Cup,1982,second group stage,1982-07-04 00:00:00,France,Northern Ireland,4,1,home team win
+354,1982 FIFA Men's World Cup,1982,second group stage,1982-07-04 00:00:00,Soviet Union,Poland,0,0,draw
+355,1982 FIFA Men's World Cup,1982,second group stage,1982-07-05 00:00:00,Italy,Brazil,3,2,home team win
+356,1982 FIFA Men's World Cup,1982,second group stage,1982-07-05 00:00:00,Spain,England,0,0,draw
+357,1982 FIFA Men's World Cup,1982,semi-finals,1982-07-08 00:00:00,Poland,Italy,0,2,away team win
+358,1982 FIFA Men's World Cup,1982,semi-finals,1982-07-08 00:00:00,West Germany,France,3,3,home team win
+359,1982 FIFA Men's World Cup,1982,third-place match,1982-07-10 00:00:00,Poland,France,3,2,home team win
+360,1982 FIFA Men's World Cup,1982,final,1982-07-11 00:00:00,Italy,West Germany,3,1,home team win
+361,1986 FIFA Men's World Cup,1986,group stage,1986-05-31 00:00:00,Bulgaria,Italy,1,1,draw
+363,1986 FIFA Men's World Cup,1986,group stage,1986-06-01 00:00:00,Canada,France,0,1,away team win
+362,1986 FIFA Men's World Cup,1986,group stage,1986-06-01 00:00:00,Spain,Brazil,0,1,away team win
+364,1986 FIFA Men's World Cup,1986,group stage,1986-06-02 00:00:00,Argentina,South Korea,3,1,home team win
+365,1986 FIFA Men's World Cup,1986,group stage,1986-06-02 00:00:00,Soviet Union,Hungary,6,0,home team win
+366,1986 FIFA Men's World Cup,1986,group stage,1986-06-02 00:00:00,Morocco,Poland,0,0,draw
+367,1986 FIFA Men's World Cup,1986,group stage,1986-06-03 00:00:00,Belgium,Mexico,1,2,away team win
+368,1986 FIFA Men's World Cup,1986,group stage,1986-06-03 00:00:00,Algeria,Northern Ireland,1,1,draw
+369,1986 FIFA Men's World Cup,1986,group stage,1986-06-03 00:00:00,Portugal,England,1,0,home team win
+370,1986 FIFA Men's World Cup,1986,group stage,1986-06-04 00:00:00,Paraguay,Iraq,1,0,home team win
+371,1986 FIFA Men's World Cup,1986,group stage,1986-06-04 00:00:00,Uruguay,West Germany,1,1,draw
+372,1986 FIFA Men's World Cup,1986,group stage,1986-06-04 00:00:00,Scotland,Denmark,0,1,away team win
+373,1986 FIFA Men's World Cup,1986,group stage,1986-06-05 00:00:00,Italy,Argentina,1,1,draw
+374,1986 FIFA Men's World Cup,1986,group stage,1986-06-05 00:00:00,France,Soviet Union,1,1,draw
+375,1986 FIFA Men's World Cup,1986,group stage,1986-06-05 00:00:00,South Korea,Bulgaria,1,1,draw
+378,1986 FIFA Men's World Cup,1986,group stage,1986-06-06 00:00:00,England,Morocco,0,0,draw
+376,1986 FIFA Men's World Cup,1986,group stage,1986-06-06 00:00:00,Hungary,Canada,2,0,home team win
+377,1986 FIFA Men's World Cup,1986,group stage,1986-06-06 00:00:00,Brazil,Algeria,1,0,home team win
+379,1986 FIFA Men's World Cup,1986,group stage,1986-06-07 00:00:00,Mexico,Paraguay,1,1,draw
+380,1986 FIFA Men's World Cup,1986,group stage,1986-06-07 00:00:00,Northern Ireland,Spain,1,2,away team win
+381,1986 FIFA Men's World Cup,1986,group stage,1986-06-07 00:00:00,Poland,Portugal,1,0,home team win
+382,1986 FIFA Men's World Cup,1986,group stage,1986-06-08 00:00:00,Iraq,Belgium,1,2,away team win
+383,1986 FIFA Men's World Cup,1986,group stage,1986-06-08 00:00:00,West Germany,Scotland,2,1,home team win
+384,1986 FIFA Men's World Cup,1986,group stage,1986-06-08 00:00:00,Denmark,Uruguay,6,1,home team win
+385,1986 FIFA Men's World Cup,1986,group stage,1986-06-09 00:00:00,Hungary,France,0,3,away team win
+386,1986 FIFA Men's World Cup,1986,group stage,1986-06-09 00:00:00,Soviet Union,Canada,2,0,home team win
+388,1986 FIFA Men's World Cup,1986,group stage,1986-06-10 00:00:00,South Korea,Italy,2,3,away team win
+387,1986 FIFA Men's World Cup,1986,group stage,1986-06-10 00:00:00,Argentina,Bulgaria,2,0,home team win
+392,1986 FIFA Men's World Cup,1986,group stage,1986-06-11 00:00:00,Portugal,Morocco,1,3,away team win
+391,1986 FIFA Men's World Cup,1986,group stage,1986-06-11 00:00:00,England,Poland,3,0,home team win
+389,1986 FIFA Men's World Cup,1986,group stage,1986-06-11 00:00:00,Iraq,Mexico,0,1,away team win
+390,1986 FIFA Men's World Cup,1986,group stage,1986-06-11 00:00:00,Paraguay,Belgium,2,2,draw
+393,1986 FIFA Men's World Cup,1986,group stage,1986-06-12 00:00:00,Algeria,Spain,0,3,away team win
+394,1986 FIFA Men's World Cup,1986,group stage,1986-06-12 00:00:00,Northern Ireland,Brazil,0,3,away team win
+395,1986 FIFA Men's World Cup,1986,group stage,1986-06-13 00:00:00,Denmark,West Germany,2,0,home team win
+396,1986 FIFA Men's World Cup,1986,group stage,1986-06-13 00:00:00,Scotland,Uruguay,0,0,draw
+397,1986 FIFA Men's World Cup,1986,round of 16,1986-06-15 00:00:00,Mexico,Bulgaria,2,0,home team win
+398,1986 FIFA Men's World Cup,1986,round of 16,1986-06-15 00:00:00,Soviet Union,Belgium,3,4,away team win
+399,1986 FIFA Men's World Cup,1986,round of 16,1986-06-16 00:00:00,Brazil,Poland,4,0,home team win
+400,1986 FIFA Men's World Cup,1986,round of 16,1986-06-16 00:00:00,Argentina,Uruguay,1,0,home team win
+401,1986 FIFA Men's World Cup,1986,round of 16,1986-06-17 00:00:00,Italy,France,0,2,away team win
+402,1986 FIFA Men's World Cup,1986,round of 16,1986-06-17 00:00:00,Morocco,West Germany,0,1,away team win
+403,1986 FIFA Men's World Cup,1986,round of 16,1986-06-18 00:00:00,England,Paraguay,3,0,home team win
+404,1986 FIFA Men's World Cup,1986,round of 16,1986-06-18 00:00:00,Denmark,Spain,1,5,away team win
+406,1986 FIFA Men's World Cup,1986,quarter-finals,1986-06-21 00:00:00,West Germany,Mexico,0,0,home team win
+405,1986 FIFA Men's World Cup,1986,quarter-finals,1986-06-21 00:00:00,Brazil,France,1,1,away team win
+407,1986 FIFA Men's World Cup,1986,quarter-finals,1986-06-22 00:00:00,Argentina,England,2,1,home team win
+408,1986 FIFA Men's World Cup,1986,quarter-finals,1986-06-22 00:00:00,Spain,Belgium,1,1,away team win
+409,1986 FIFA Men's World Cup,1986,semi-finals,1986-06-25 00:00:00,France,West Germany,0,2,away team win
+410,1986 FIFA Men's World Cup,1986,semi-finals,1986-06-25 00:00:00,Argentina,Belgium,2,0,home team win
+411,1986 FIFA Men's World Cup,1986,third-place match,1986-06-28 00:00:00,Belgium,France,2,4,away team win
+412,1986 FIFA Men's World Cup,1986,final,1986-06-29 00:00:00,Argentina,West Germany,3,2,home team win
+413,1990 FIFA Men's World Cup,1990,group stage,1990-06-08 00:00:00,Argentina,Cameroon,0,1,away team win
+414,1990 FIFA Men's World Cup,1990,group stage,1990-06-09 00:00:00,Soviet Union,Romania,0,2,away team win
+415,1990 FIFA Men's World Cup,1990,group stage,1990-06-09 00:00:00,United Arab Emirates,Colombia,0,2,away team win
+416,1990 FIFA Men's World Cup,1990,group stage,1990-06-09 00:00:00,Italy,Austria,1,0,home team win
+418,1990 FIFA Men's World Cup,1990,group stage,1990-06-10 00:00:00,Brazil,Sweden,2,1,home team win
+417,1990 FIFA Men's World Cup,1990,group stage,1990-06-10 00:00:00,United States,Czechoslovakia,1,5,away team win
+419,1990 FIFA Men's World Cup,1990,group stage,1990-06-10 00:00:00,West Germany,Yugoslavia,4,1,home team win
+421,1990 FIFA Men's World Cup,1990,group stage,1990-06-11 00:00:00,England,Republic of Ireland,1,1,draw
+420,1990 FIFA Men's World Cup,1990,group stage,1990-06-11 00:00:00,Costa Rica,Scotland,1,0,home team win
+422,1990 FIFA Men's World Cup,1990,group stage,1990-06-12 00:00:00,Belgium,South Korea,2,0,home team win
+423,1990 FIFA Men's World Cup,1990,group stage,1990-06-12 00:00:00,Netherlands,Egypt,1,1,draw
+424,1990 FIFA Men's World Cup,1990,group stage,1990-06-13 00:00:00,Uruguay,Spain,0,0,draw
+425,1990 FIFA Men's World Cup,1990,group stage,1990-06-13 00:00:00,Argentina,Soviet Union,2,0,home team win
+426,1990 FIFA Men's World Cup,1990,group stage,1990-06-14 00:00:00,Cameroon,Romania,2,1,home team win
+427,1990 FIFA Men's World Cup,1990,group stage,1990-06-14 00:00:00,Yugoslavia,Colombia,1,0,home team win
+428,1990 FIFA Men's World Cup,1990,group stage,1990-06-14 00:00:00,Italy,United States,1,0,home team win
+429,1990 FIFA Men's World Cup,1990,group stage,1990-06-15 00:00:00,Austria,Czechoslovakia,0,1,away team win
+430,1990 FIFA Men's World Cup,1990,group stage,1990-06-15 00:00:00,West Germany,United Arab Emirates,5,1,home team win
+431,1990 FIFA Men's World Cup,1990,group stage,1990-06-16 00:00:00,Brazil,Costa Rica,1,0,home team win
+432,1990 FIFA Men's World Cup,1990,group stage,1990-06-16 00:00:00,Sweden,Scotland,1,2,away team win
+433,1990 FIFA Men's World Cup,1990,group stage,1990-06-16 00:00:00,England,Netherlands,0,0,draw
+436,1990 FIFA Men's World Cup,1990,group stage,1990-06-17 00:00:00,South Korea,Spain,1,3,away team win
+435,1990 FIFA Men's World Cup,1990,group stage,1990-06-17 00:00:00,Belgium,Uruguay,3,1,home team win
+434,1990 FIFA Men's World Cup,1990,group stage,1990-06-17 00:00:00,Republic of Ireland,Egypt,0,0,draw
+437,1990 FIFA Men's World Cup,1990,group stage,1990-06-18 00:00:00,Argentina,Romania,1,1,draw
+438,1990 FIFA Men's World Cup,1990,group stage,1990-06-18 00:00:00,Cameroon,Soviet Union,0,4,away team win
+439,1990 FIFA Men's World Cup,1990,group stage,1990-06-19 00:00:00,West Germany,Colombia,1,1,draw
+440,1990 FIFA Men's World Cup,1990,group stage,1990-06-19 00:00:00,Yugoslavia,United Arab Emirates,4,1,home team win
+441,1990 FIFA Men's World Cup,1990,group stage,1990-06-19 00:00:00,Austria,United States,2,1,home team win
+442,1990 FIFA Men's World Cup,1990,group stage,1990-06-19 00:00:00,Italy,Czechoslovakia,2,0,home team win
+443,1990 FIFA Men's World Cup,1990,group stage,1990-06-20 00:00:00,Brazil,Scotland,1,0,home team win
+444,1990 FIFA Men's World Cup,1990,group stage,1990-06-20 00:00:00,Sweden,Costa Rica,1,2,away team win
+445,1990 FIFA Men's World Cup,1990,group stage,1990-06-21 00:00:00,Belgium,Spain,1,2,away team win
+446,1990 FIFA Men's World Cup,1990,group stage,1990-06-21 00:00:00,South Korea,Uruguay,0,1,away team win
+447,1990 FIFA Men's World Cup,1990,group stage,1990-06-21 00:00:00,England,Egypt,1,0,home team win
+448,1990 FIFA Men's World Cup,1990,group stage,1990-06-21 00:00:00,Republic of Ireland,Netherlands,1,1,draw
+450,1990 FIFA Men's World Cup,1990,round of 16,1990-06-23 00:00:00,Czechoslovakia,Costa Rica,4,1,home team win
+449,1990 FIFA Men's World Cup,1990,round of 16,1990-06-23 00:00:00,Cameroon,Colombia,2,1,home team win
+451,1990 FIFA Men's World Cup,1990,round of 16,1990-06-24 00:00:00,Brazil,Argentina,0,1,away team win
+452,1990 FIFA Men's World Cup,1990,round of 16,1990-06-24 00:00:00,West Germany,Netherlands,2,1,home team win
+453,1990 FIFA Men's World Cup,1990,round of 16,1990-06-25 00:00:00,Republic of Ireland,Romania,0,0,home team win
+454,1990 FIFA Men's World Cup,1990,round of 16,1990-06-25 00:00:00,Italy,Uruguay,2,0,home team win
+455,1990 FIFA Men's World Cup,1990,round of 16,1990-06-26 00:00:00,Spain,Yugoslavia,1,2,away team win
+456,1990 FIFA Men's World Cup,1990,round of 16,1990-06-26 00:00:00,England,Belgium,1,0,home team win
+457,1990 FIFA Men's World Cup,1990,quarter-finals,1990-06-30 00:00:00,Argentina,Yugoslavia,0,0,home team win
+458,1990 FIFA Men's World Cup,1990,quarter-finals,1990-06-30 00:00:00,Republic of Ireland,Italy,0,1,away team win
+459,1990 FIFA Men's World Cup,1990,quarter-finals,1990-07-01 00:00:00,Czechoslovakia,West Germany,0,1,away team win
+460,1990 FIFA Men's World Cup,1990,quarter-finals,1990-07-01 00:00:00,Cameroon,England,2,3,away team win
+461,1990 FIFA Men's World Cup,1990,semi-finals,1990-07-03 00:00:00,Argentina,Italy,1,1,home team win
+462,1990 FIFA Men's World Cup,1990,semi-finals,1990-07-04 00:00:00,West Germany,England,1,1,home team win
+463,1990 FIFA Men's World Cup,1990,third-place match,1990-07-07 00:00:00,Italy,England,2,1,home team win
+464,1990 FIFA Men's World Cup,1990,final,1990-07-08 00:00:00,West Germany,Argentina,1,0,home team win
+491,1994 FIFA Men's World Cup,1994,group stage,1994-06-17 00:00:00,Germany,Bolivia,1,0,home team win
+492,1994 FIFA Men's World Cup,1994,group stage,1994-06-17 00:00:00,Spain,South Korea,2,2,draw
+493,1994 FIFA Men's World Cup,1994,group stage,1994-06-18 00:00:00,United States,Switzerland,1,1,draw
+494,1994 FIFA Men's World Cup,1994,group stage,1994-06-18 00:00:00,Italy,Republic of Ireland,0,1,away team win
+495,1994 FIFA Men's World Cup,1994,group stage,1994-06-18 00:00:00,Colombia,Romania,1,3,away team win
+496,1994 FIFA Men's World Cup,1994,group stage,1994-06-19 00:00:00,Belgium,Morocco,1,0,home team win
+497,1994 FIFA Men's World Cup,1994,group stage,1994-06-19 00:00:00,Norway,Mexico,1,0,home team win
+498,1994 FIFA Men's World Cup,1994,group stage,1994-06-19 00:00:00,Cameroon,Sweden,2,2,draw
+499,1994 FIFA Men's World Cup,1994,group stage,1994-06-20 00:00:00,Brazil,Russia,2,0,home team win
+500,1994 FIFA Men's World Cup,1994,group stage,1994-06-20 00:00:00,Netherlands,Saudi Arabia,2,1,home team win
+501,1994 FIFA Men's World Cup,1994,group stage,1994-06-21 00:00:00,Argentina,Greece,4,0,home team win
+502,1994 FIFA Men's World Cup,1994,group stage,1994-06-21 00:00:00,Germany,Spain,1,1,draw
+503,1994 FIFA Men's World Cup,1994,group stage,1994-06-21 00:00:00,Nigeria,Bulgaria,3,0,home team win
+504,1994 FIFA Men's World Cup,1994,group stage,1994-06-22 00:00:00,Romania,Switzerland,1,4,away team win
+505,1994 FIFA Men's World Cup,1994,group stage,1994-06-22 00:00:00,United States,Colombia,2,1,home team win
+507,1994 FIFA Men's World Cup,1994,group stage,1994-06-23 00:00:00,South Korea,Bolivia,0,0,draw
+506,1994 FIFA Men's World Cup,1994,group stage,1994-06-23 00:00:00,Italy,Norway,1,0,home team win
+509,1994 FIFA Men's World Cup,1994,group stage,1994-06-24 00:00:00,Brazil,Cameroon,3,0,home team win
+510,1994 FIFA Men's World Cup,1994,group stage,1994-06-24 00:00:00,Sweden,Russia,3,1,home team win
+508,1994 FIFA Men's World Cup,1994,group stage,1994-06-24 00:00:00,Mexico,Republic of Ireland,2,1,home team win
+511,1994 FIFA Men's World Cup,1994,group stage,1994-06-25 00:00:00,Belgium,Netherlands,1,0,home team win
+512,1994 FIFA Men's World Cup,1994,group stage,1994-06-25 00:00:00,Saudi Arabia,Morocco,2,1,home team win
+513,1994 FIFA Men's World Cup,1994,group stage,1994-06-25 00:00:00,Argentina,Nigeria,2,1,home team win
+514,1994 FIFA Men's World Cup,1994,group stage,1994-06-26 00:00:00,Bulgaria,Greece,4,0,home team win
+515,1994 FIFA Men's World Cup,1994,group stage,1994-06-26 00:00:00,Switzerland,Colombia,0,2,away team win
+516,1994 FIFA Men's World Cup,1994,group stage,1994-06-26 00:00:00,United States,Romania,0,1,away team win
+517,1994 FIFA Men's World Cup,1994,group stage,1994-06-27 00:00:00,Bolivia,Spain,1,3,away team win
+518,1994 FIFA Men's World Cup,1994,group stage,1994-06-27 00:00:00,Germany,South Korea,3,2,home team win
+519,1994 FIFA Men's World Cup,1994,group stage,1994-06-28 00:00:00,Italy,Mexico,1,1,draw
+520,1994 FIFA Men's World Cup,1994,group stage,1994-06-28 00:00:00,Republic of Ireland,Norway,0,0,draw
+521,1994 FIFA Men's World Cup,1994,group stage,1994-06-28 00:00:00,Russia,Cameroon,6,1,home team win
+522,1994 FIFA Men's World Cup,1994,group stage,1994-06-28 00:00:00,Brazil,Sweden,1,1,draw
+524,1994 FIFA Men's World Cup,1994,group stage,1994-06-29 00:00:00,Morocco,Netherlands,1,2,away team win
+523,1994 FIFA Men's World Cup,1994,group stage,1994-06-29 00:00:00,Belgium,Saudi Arabia,0,1,away team win
+525,1994 FIFA Men's World Cup,1994,group stage,1994-06-30 00:00:00,Argentina,Bulgaria,0,2,away team win
+526,1994 FIFA Men's World Cup,1994,group stage,1994-06-30 00:00:00,Greece,Nigeria,0,2,away team win
+527,1994 FIFA Men's World Cup,1994,round of 16,1994-07-02 00:00:00,Germany,Belgium,3,2,home team win
+528,1994 FIFA Men's World Cup,1994,round of 16,1994-07-02 00:00:00,Spain,Switzerland,3,0,home team win
+529,1994 FIFA Men's World Cup,1994,round of 16,1994-07-03 00:00:00,Saudi Arabia,Sweden,1,3,away team win
+530,1994 FIFA Men's World Cup,1994,round of 16,1994-07-03 00:00:00,Romania,Argentina,3,2,home team win
+531,1994 FIFA Men's World Cup,1994,round of 16,1994-07-04 00:00:00,Netherlands,Republic of Ireland,2,0,home team win
+532,1994 FIFA Men's World Cup,1994,round of 16,1994-07-04 00:00:00,Brazil,United States,1,0,home team win
+533,1994 FIFA Men's World Cup,1994,round of 16,1994-07-05 00:00:00,Nigeria,Italy,1,2,away team win
+534,1994 FIFA Men's World Cup,1994,round of 16,1994-07-05 00:00:00,Mexico,Bulgaria,1,1,away team win
+535,1994 FIFA Men's World Cup,1994,quarter-finals,1994-07-09 00:00:00,Italy,Spain,2,1,home team win
+536,1994 FIFA Men's World Cup,1994,quarter-finals,1994-07-09 00:00:00,Netherlands,Brazil,2,3,away team win
+537,1994 FIFA Men's World Cup,1994,quarter-finals,1994-07-10 00:00:00,Bulgaria,Germany,2,1,home team win
+538,1994 FIFA Men's World Cup,1994,quarter-finals,1994-07-10 00:00:00,Romania,Sweden,2,2,away team win
+540,1994 FIFA Men's World Cup,1994,semi-finals,1994-07-13 00:00:00,Sweden,Brazil,0,1,away team win
+539,1994 FIFA Men's World Cup,1994,semi-finals,1994-07-13 00:00:00,Bulgaria,Italy,1,2,away team win
+541,1994 FIFA Men's World Cup,1994,third-place match,1994-07-16 00:00:00,Sweden,Bulgaria,4,0,home team win
+542,1994 FIFA Men's World Cup,1994,final,1994-07-17 00:00:00,Brazil,Italy,0,0,home team win
+569,1998 FIFA Men's World Cup,1998,group stage,1998-06-10 00:00:00,Brazil,Scotland,2,1,home team win
+570,1998 FIFA Men's World Cup,1998,group stage,1998-06-10 00:00:00,Morocco,Norway,2,2,draw
+571,1998 FIFA Men's World Cup,1998,group stage,1998-06-11 00:00:00,Italy,Chile,2,2,draw
+572,1998 FIFA Men's World Cup,1998,group stage,1998-06-11 00:00:00,Cameroon,Austria,1,1,draw
+573,1998 FIFA Men's World Cup,1998,group stage,1998-06-12 00:00:00,Paraguay,Bulgaria,0,0,draw
+574,1998 FIFA Men's World Cup,1998,group stage,1998-06-12 00:00:00,Saudi Arabia,Denmark,0,1,away team win
+575,1998 FIFA Men's World Cup,1998,group stage,1998-06-12 00:00:00,France,South Africa,3,0,home team win
+576,1998 FIFA Men's World Cup,1998,group stage,1998-06-13 00:00:00,Spain,Nigeria,2,3,away team win
+577,1998 FIFA Men's World Cup,1998,group stage,1998-06-13 00:00:00,South Korea,Mexico,1,3,away team win
+578,1998 FIFA Men's World Cup,1998,group stage,1998-06-13 00:00:00,Netherlands,Belgium,0,0,draw
+581,1998 FIFA Men's World Cup,1998,group stage,1998-06-14 00:00:00,Jamaica,Croatia,1,3,away team win
+579,1998 FIFA Men's World Cup,1998,group stage,1998-06-14 00:00:00,Argentina,Japan,1,0,home team win
+580,1998 FIFA Men's World Cup,1998,group stage,1998-06-14 00:00:00,Yugoslavia,Iran,1,0,home team win
+582,1998 FIFA Men's World Cup,1998,group stage,1998-06-15 00:00:00,England,Tunisia,2,0,home team win
+583,1998 FIFA Men's World Cup,1998,group stage,1998-06-15 00:00:00,Romania,Colombia,1,0,home team win
+584,1998 FIFA Men's World Cup,1998,group stage,1998-06-15 00:00:00,Germany,United States,2,0,home team win
+585,1998 FIFA Men's World Cup,1998,group stage,1998-06-16 00:00:00,Scotland,Norway,1,1,draw
+586,1998 FIFA Men's World Cup,1998,group stage,1998-06-16 00:00:00,Brazil,Morocco,3,0,home team win
+587,1998 FIFA Men's World Cup,1998,group stage,1998-06-17 00:00:00,Chile,Austria,1,1,draw
+588,1998 FIFA Men's World Cup,1998,group stage,1998-06-17 00:00:00,Italy,Cameroon,3,0,home team win
+589,1998 FIFA Men's World Cup,1998,group stage,1998-06-18 00:00:00,South Africa,Denmark,1,1,draw
+590,1998 FIFA Men's World Cup,1998,group stage,1998-06-18 00:00:00,France,Saudi Arabia,4,0,home team win
+592,1998 FIFA Men's World Cup,1998,group stage,1998-06-19 00:00:00,Spain,Paraguay,0,0,draw
+591,1998 FIFA Men's World Cup,1998,group stage,1998-06-19 00:00:00,Nigeria,Bulgaria,1,0,home team win
+594,1998 FIFA Men's World Cup,1998,group stage,1998-06-20 00:00:00,Belgium,Mexico,2,2,draw
+595,1998 FIFA Men's World Cup,1998,group stage,1998-06-20 00:00:00,Netherlands,South Korea,5,0,home team win
+593,1998 FIFA Men's World Cup,1998,group stage,1998-06-20 00:00:00,Japan,Croatia,0,1,away team win
+598,1998 FIFA Men's World Cup,1998,group stage,1998-06-21 00:00:00,United States,Iran,1,2,away team win
+596,1998 FIFA Men's World Cup,1998,group stage,1998-06-21 00:00:00,Germany,Yugoslavia,2,2,draw
+597,1998 FIFA Men's World Cup,1998,group stage,1998-06-21 00:00:00,Argentina,Jamaica,5,0,home team win
+599,1998 FIFA Men's World Cup,1998,group stage,1998-06-22 00:00:00,Colombia,Tunisia,1,0,home team win
+600,1998 FIFA Men's World Cup,1998,group stage,1998-06-22 00:00:00,Romania,England,2,1,home team win
+601,1998 FIFA Men's World Cup,1998,group stage,1998-06-23 00:00:00,Chile,Cameroon,1,1,draw
+602,1998 FIFA Men's World Cup,1998,group stage,1998-06-23 00:00:00,Italy,Austria,2,1,home team win
+603,1998 FIFA Men's World Cup,1998,group stage,1998-06-23 00:00:00,Brazil,Norway,1,2,away team win
+604,1998 FIFA Men's World Cup,1998,group stage,1998-06-23 00:00:00,Scotland,Morocco,0,3,away team win
+605,1998 FIFA Men's World Cup,1998,group stage,1998-06-24 00:00:00,France,Denmark,2,1,home team win
+606,1998 FIFA Men's World Cup,1998,group stage,1998-06-24 00:00:00,South Africa,Saudi Arabia,2,2,draw
+607,1998 FIFA Men's World Cup,1998,group stage,1998-06-24 00:00:00,Nigeria,Paraguay,1,3,away team win
+608,1998 FIFA Men's World Cup,1998,group stage,1998-06-24 00:00:00,Spain,Bulgaria,6,1,home team win
+611,1998 FIFA Men's World Cup,1998,group stage,1998-06-25 00:00:00,Germany,Iran,2,0,home team win
+612,1998 FIFA Men's World Cup,1998,group stage,1998-06-25 00:00:00,United States,Yugoslavia,0,1,away team win
+609,1998 FIFA Men's World Cup,1998,group stage,1998-06-25 00:00:00,Belgium,South Korea,1,1,draw
+610,1998 FIFA Men's World Cup,1998,group stage,1998-06-25 00:00:00,Netherlands,Mexico,2,2,draw
+613,1998 FIFA Men's World Cup,1998,group stage,1998-06-26 00:00:00,Argentina,Croatia,1,0,home team win
+614,1998 FIFA Men's World Cup,1998,group stage,1998-06-26 00:00:00,Japan,Jamaica,1,2,away team win
+615,1998 FIFA Men's World Cup,1998,group stage,1998-06-26 00:00:00,Colombia,England,0,2,away team win
+616,1998 FIFA Men's World Cup,1998,group stage,1998-06-26 00:00:00,Romania,Tunisia,1,1,draw
+617,1998 FIFA Men's World Cup,1998,round of 16,1998-06-27 00:00:00,Italy,Norway,1,0,home team win
+618,1998 FIFA Men's World Cup,1998,round of 16,1998-06-27 00:00:00,Brazil,Chile,4,1,home team win
+620,1998 FIFA Men's World Cup,1998,round of 16,1998-06-28 00:00:00,Nigeria,Denmark,1,4,away team win
+619,1998 FIFA Men's World Cup,1998,round of 16,1998-06-28 00:00:00,France,Paraguay,1,0,home team win
+621,1998 FIFA Men's World Cup,1998,round of 16,1998-06-29 00:00:00,Germany,Mexico,2,1,home team win
+622,1998 FIFA Men's World Cup,1998,round of 16,1998-06-29 00:00:00,Netherlands,Yugoslavia,2,1,home team win
+623,1998 FIFA Men's World Cup,1998,round of 16,1998-06-30 00:00:00,Romania,Croatia,0,1,away team win
+624,1998 FIFA Men's World Cup,1998,round of 16,1998-06-30 00:00:00,Argentina,England,2,2,home team win
+626,1998 FIFA Men's World Cup,1998,quarter-finals,1998-07-03 00:00:00,Brazil,Denmark,3,2,home team win
+625,1998 FIFA Men's World Cup,1998,quarter-finals,1998-07-03 00:00:00,Italy,France,0,0,away team win
+628,1998 FIFA Men's World Cup,1998,quarter-finals,1998-07-04 00:00:00,Germany,Croatia,0,3,away team win
+627,1998 FIFA Men's World Cup,1998,quarter-finals,1998-07-04 00:00:00,Netherlands,Argentina,2,1,home team win
+629,1998 FIFA Men's World Cup,1998,semi-finals,1998-07-07 00:00:00,Brazil,Netherlands,1,1,home team win
+630,1998 FIFA Men's World Cup,1998,semi-finals,1998-07-08 00:00:00,France,Croatia,2,1,home team win
+631,1998 FIFA Men's World Cup,1998,third-place match,1998-07-11 00:00:00,Netherlands,Croatia,1,2,away team win
+632,1998 FIFA Men's World Cup,1998,final,1998-07-12 00:00:00,Brazil,France,0,3,away team win
+665,2002 FIFA Men's World Cup,2002,group stage,2002-05-31 00:00:00,France,Senegal,0,1,away team win
+666,2002 FIFA Men's World Cup,2002,group stage,2002-06-01 00:00:00,Republic of Ireland,Cameroon,1,1,draw
+667,2002 FIFA Men's World Cup,2002,group stage,2002-06-01 00:00:00,Uruguay,Denmark,1,2,away team win
+668,2002 FIFA Men's World Cup,2002,group stage,2002-06-01 00:00:00,Germany,Saudi Arabia,8,0,home team win
+669,2002 FIFA Men's World Cup,2002,group stage,2002-06-02 00:00:00,Argentina,Nigeria,1,0,home team win
+670,2002 FIFA Men's World Cup,2002,group stage,2002-06-02 00:00:00,Paraguay,South Africa,2,2,draw
+671,2002 FIFA Men's World Cup,2002,group stage,2002-06-02 00:00:00,England,Sweden,1,1,draw
+672,2002 FIFA Men's World Cup,2002,group stage,2002-06-02 00:00:00,Spain,Slovenia,3,1,home team win
+675,2002 FIFA Men's World Cup,2002,group stage,2002-06-03 00:00:00,Italy,Ecuador,2,0,home team win
+673,2002 FIFA Men's World Cup,2002,group stage,2002-06-03 00:00:00,Croatia,Mexico,0,1,away team win
+674,2002 FIFA Men's World Cup,2002,group stage,2002-06-03 00:00:00,Brazil,Turkey,2,1,home team win
+676,2002 FIFA Men's World Cup,2002,group stage,2002-06-04 00:00:00,China,Costa Rica,0,2,away team win
+677,2002 FIFA Men's World Cup,2002,group stage,2002-06-04 00:00:00,Japan,Belgium,2,2,draw
+678,2002 FIFA Men's World Cup,2002,group stage,2002-06-04 00:00:00,South Korea,Poland,2,0,home team win
+679,2002 FIFA Men's World Cup,2002,group stage,2002-06-05 00:00:00,Russia,Tunisia,2,0,home team win
+680,2002 FIFA Men's World Cup,2002,group stage,2002-06-05 00:00:00,United States,Portugal,3,2,home team win
+681,2002 FIFA Men's World Cup,2002,group stage,2002-06-05 00:00:00,Germany,Republic of Ireland,1,1,draw
+684,2002 FIFA Men's World Cup,2002,group stage,2002-06-06 00:00:00,France,Uruguay,0,0,draw
+682,2002 FIFA Men's World Cup,2002,group stage,2002-06-06 00:00:00,Denmark,Senegal,1,1,draw
+683,2002 FIFA Men's World Cup,2002,group stage,2002-06-06 00:00:00,Cameroon,Saudi Arabia,1,0,home team win
+686,2002 FIFA Men's World Cup,2002,group stage,2002-06-07 00:00:00,Spain,Paraguay,3,1,home team win
+687,2002 FIFA Men's World Cup,2002,group stage,2002-06-07 00:00:00,Argentina,England,0,1,away team win
+685,2002 FIFA Men's World Cup,2002,group stage,2002-06-07 00:00:00,Sweden,Nigeria,2,1,home team win
+690,2002 FIFA Men's World Cup,2002,group stage,2002-06-08 00:00:00,Brazil,China,4,0,home team win
+688,2002 FIFA Men's World Cup,2002,group stage,2002-06-08 00:00:00,South Africa,Slovenia,1,0,home team win
+689,2002 FIFA Men's World Cup,2002,group stage,2002-06-08 00:00:00,Italy,Croatia,1,2,away team win
+691,2002 FIFA Men's World Cup,2002,group stage,2002-06-09 00:00:00,Mexico,Ecuador,2,1,home team win
+692,2002 FIFA Men's World Cup,2002,group stage,2002-06-09 00:00:00,Costa Rica,Turkey,1,1,draw
+693,2002 FIFA Men's World Cup,2002,group stage,2002-06-09 00:00:00,Japan,Russia,1,0,home team win
+694,2002 FIFA Men's World Cup,2002,group stage,2002-06-10 00:00:00,South Korea,United States,1,1,draw
+695,2002 FIFA Men's World Cup,2002,group stage,2002-06-10 00:00:00,Tunisia,Belgium,1,1,draw
+696,2002 FIFA Men's World Cup,2002,group stage,2002-06-10 00:00:00,Portugal,Poland,4,0,home team win
+697,2002 FIFA Men's World Cup,2002,group stage,2002-06-11 00:00:00,Denmark,France,2,0,home team win
+698,2002 FIFA Men's World Cup,2002,group stage,2002-06-11 00:00:00,Senegal,Uruguay,3,3,draw
+699,2002 FIFA Men's World Cup,2002,group stage,2002-06-11 00:00:00,Cameroon,Germany,0,2,away team win
+700,2002 FIFA Men's World Cup,2002,group stage,2002-06-11 00:00:00,Saudi Arabia,Republic of Ireland,0,3,away team win
+703,2002 FIFA Men's World Cup,2002,group stage,2002-06-12 00:00:00,Slovenia,Paraguay,1,3,away team win
+704,2002 FIFA Men's World Cup,2002,group stage,2002-06-12 00:00:00,South Africa,Spain,2,3,away team win
+701,2002 FIFA Men's World Cup,2002,group stage,2002-06-12 00:00:00,Nigeria,England,0,0,draw
+702,2002 FIFA Men's World Cup,2002,group stage,2002-06-12 00:00:00,Sweden,Argentina,1,1,draw
+705,2002 FIFA Men's World Cup,2002,group stage,2002-06-13 00:00:00,Costa Rica,Brazil,2,5,away team win
+706,2002 FIFA Men's World Cup,2002,group stage,2002-06-13 00:00:00,Turkey,China,3,0,home team win
+707,2002 FIFA Men's World Cup,2002,group stage,2002-06-13 00:00:00,Ecuador,Croatia,1,0,home team win
+708,2002 FIFA Men's World Cup,2002,group stage,2002-06-13 00:00:00,Mexico,Italy,1,1,draw
+712,2002 FIFA Men's World Cup,2002,group stage,2002-06-14 00:00:00,Portugal,South Korea,0,1,away team win
+711,2002 FIFA Men's World Cup,2002,group stage,2002-06-14 00:00:00,Poland,United States,3,1,home team win
+709,2002 FIFA Men's World Cup,2002,group stage,2002-06-14 00:00:00,Belgium,Russia,3,2,home team win
+710,2002 FIFA Men's World Cup,2002,group stage,2002-06-14 00:00:00,Tunisia,Japan,0,2,away team win
+713,2002 FIFA Men's World Cup,2002,round of 16,2002-06-15 00:00:00,Germany,Paraguay,1,0,home team win
+714,2002 FIFA Men's World Cup,2002,round of 16,2002-06-15 00:00:00,Denmark,England,0,3,away team win
+715,2002 FIFA Men's World Cup,2002,round of 16,2002-06-16 00:00:00,Sweden,Senegal,1,2,away team win
+716,2002 FIFA Men's World Cup,2002,round of 16,2002-06-16 00:00:00,Spain,Republic of Ireland,1,1,home team win
+718,2002 FIFA Men's World Cup,2002,round of 16,2002-06-17 00:00:00,Brazil,Belgium,2,0,home team win
+717,2002 FIFA Men's World Cup,2002,round of 16,2002-06-17 00:00:00,Mexico,United States,0,2,away team win
+720,2002 FIFA Men's World Cup,2002,round of 16,2002-06-18 00:00:00,South Korea,Italy,2,1,home team win
+719,2002 FIFA Men's World Cup,2002,round of 16,2002-06-18 00:00:00,Japan,Turkey,0,1,away team win
+721,2002 FIFA Men's World Cup,2002,quarter-finals,2002-06-21 00:00:00,England,Brazil,1,2,away team win
+722,2002 FIFA Men's World Cup,2002,quarter-finals,2002-06-21 00:00:00,Germany,United States,1,0,home team win
+723,2002 FIFA Men's World Cup,2002,quarter-finals,2002-06-22 00:00:00,Spain,South Korea,0,0,away team win
+724,2002 FIFA Men's World Cup,2002,quarter-finals,2002-06-22 00:00:00,Senegal,Turkey,0,1,away team win
+725,2002 FIFA Men's World Cup,2002,semi-finals,2002-06-25 00:00:00,Germany,South Korea,1,0,home team win
+726,2002 FIFA Men's World Cup,2002,semi-finals,2002-06-26 00:00:00,Brazil,Turkey,1,0,home team win
+727,2002 FIFA Men's World Cup,2002,third-place match,2002-06-29 00:00:00,South Korea,Turkey,2,3,away team win
+728,2002 FIFA Men's World Cup,2002,final,2002-06-30 00:00:00,Germany,Brazil,0,2,away team win
+761,2006 FIFA Men's World Cup,2006,group stage,2006-06-09 00:00:00,Germany,Costa Rica,4,2,home team win
+762,2006 FIFA Men's World Cup,2006,group stage,2006-06-09 00:00:00,Poland,Ecuador,0,2,away team win
+763,2006 FIFA Men's World Cup,2006,group stage,2006-06-10 00:00:00,England,Paraguay,1,0,home team win
+764,2006 FIFA Men's World Cup,2006,group stage,2006-06-10 00:00:00,Trinidad and Tobago,Sweden,0,0,draw
+765,2006 FIFA Men's World Cup,2006,group stage,2006-06-10 00:00:00,Argentina,Ivory Coast,2,1,home team win
+768,2006 FIFA Men's World Cup,2006,group stage,2006-06-11 00:00:00,Angola,Portugal,0,1,away team win
+767,2006 FIFA Men's World Cup,2006,group stage,2006-06-11 00:00:00,Mexico,Iran,3,1,home team win
+766,2006 FIFA Men's World Cup,2006,group stage,2006-06-11 00:00:00,Serbia and Montenegro,Netherlands,0,1,away team win
+769,2006 FIFA Men's World Cup,2006,group stage,2006-06-12 00:00:00,Australia,Japan,3,1,home team win
+770,2006 FIFA Men's World Cup,2006,group stage,2006-06-12 00:00:00,United States,Czech Republic,0,3,away team win
+771,2006 FIFA Men's World Cup,2006,group stage,2006-06-12 00:00:00,Italy,Ghana,2,0,home team win
+772,2006 FIFA Men's World Cup,2006,group stage,2006-06-13 00:00:00,South Korea,Togo,2,1,home team win
+773,2006 FIFA Men's World Cup,2006,group stage,2006-06-13 00:00:00,France,Switzerland,0,0,draw
+774,2006 FIFA Men's World Cup,2006,group stage,2006-06-13 00:00:00,Brazil,Croatia,1,0,home team win
+775,2006 FIFA Men's World Cup,2006,group stage,2006-06-14 00:00:00,Spain,Ukraine,4,0,home team win
+776,2006 FIFA Men's World Cup,2006,group stage,2006-06-14 00:00:00,Tunisia,Saudi Arabia,2,2,draw
+777,2006 FIFA Men's World Cup,2006,group stage,2006-06-14 00:00:00,Germany,Poland,1,0,home team win
+778,2006 FIFA Men's World Cup,2006,group stage,2006-06-15 00:00:00,Ecuador,Costa Rica,3,0,home team win
+779,2006 FIFA Men's World Cup,2006,group stage,2006-06-15 00:00:00,England,Trinidad and Tobago,2,0,home team win
+780,2006 FIFA Men's World Cup,2006,group stage,2006-06-15 00:00:00,Sweden,Paraguay,1,0,home team win
+783,2006 FIFA Men's World Cup,2006,group stage,2006-06-16 00:00:00,Mexico,Angola,0,0,draw
+781,2006 FIFA Men's World Cup,2006,group stage,2006-06-16 00:00:00,Argentina,Serbia and Montenegro,6,0,home team win
+782,2006 FIFA Men's World Cup,2006,group stage,2006-06-16 00:00:00,Netherlands,Ivory Coast,2,1,home team win
+784,2006 FIFA Men's World Cup,2006,group stage,2006-06-17 00:00:00,Portugal,Iran,2,0,home team win
+785,2006 FIFA Men's World Cup,2006,group stage,2006-06-17 00:00:00,Czech Republic,Ghana,0,2,away team win
+786,2006 FIFA Men's World Cup,2006,group stage,2006-06-17 00:00:00,Italy,United States,1,1,draw
+787,2006 FIFA Men's World Cup,2006,group stage,2006-06-18 00:00:00,Japan,Croatia,0,0,draw
+788,2006 FIFA Men's World Cup,2006,group stage,2006-06-18 00:00:00,Brazil,Australia,2,0,home team win
+789,2006 FIFA Men's World Cup,2006,group stage,2006-06-18 00:00:00,France,South Korea,1,1,draw
+790,2006 FIFA Men's World Cup,2006,group stage,2006-06-19 00:00:00,Togo,Switzerland,0,2,away team win
+791,2006 FIFA Men's World Cup,2006,group stage,2006-06-19 00:00:00,Saudi Arabia,Ukraine,0,4,away team win
+792,2006 FIFA Men's World Cup,2006,group stage,2006-06-19 00:00:00,Spain,Tunisia,3,1,home team win
+795,2006 FIFA Men's World Cup,2006,group stage,2006-06-20 00:00:00,Paraguay,Trinidad and Tobago,2,0,home team win
+796,2006 FIFA Men's World Cup,2006,group stage,2006-06-20 00:00:00,Sweden,England,2,2,draw
+793,2006 FIFA Men's World Cup,2006,group stage,2006-06-20 00:00:00,Costa Rica,Poland,1,2,away team win
+794,2006 FIFA Men's World Cup,2006,group stage,2006-06-20 00:00:00,Ecuador,Germany,0,3,away team win
+797,2006 FIFA Men's World Cup,2006,group stage,2006-06-21 00:00:00,Iran,Angola,1,1,draw
+798,2006 FIFA Men's World Cup,2006,group stage,2006-06-21 00:00:00,Portugal,Mexico,2,1,home team win
+799,2006 FIFA Men's World Cup,2006,group stage,2006-06-21 00:00:00,Ivory Coast,Serbia and Montenegro,3,2,home team win
+800,2006 FIFA Men's World Cup,2006,group stage,2006-06-21 00:00:00,Netherlands,Argentina,0,0,draw
+801,2006 FIFA Men's World Cup,2006,group stage,2006-06-22 00:00:00,Czech Republic,Italy,0,2,away team win
+802,2006 FIFA Men's World Cup,2006,group stage,2006-06-22 00:00:00,Ghana,United States,2,1,home team win
+803,2006 FIFA Men's World Cup,2006,group stage,2006-06-22 00:00:00,Croatia,Australia,2,2,draw
+804,2006 FIFA Men's World Cup,2006,group stage,2006-06-22 00:00:00,Japan,Brazil,1,4,away team win
+808,2006 FIFA Men's World Cup,2006,group stage,2006-06-23 00:00:00,Togo,France,0,2,away team win
+805,2006 FIFA Men's World Cup,2006,group stage,2006-06-23 00:00:00,Saudi Arabia,Spain,0,1,away team win
+806,2006 FIFA Men's World Cup,2006,group stage,2006-06-23 00:00:00,Ukraine,Tunisia,1,0,home team win
+807,2006 FIFA Men's World Cup,2006,group stage,2006-06-23 00:00:00,Switzerland,South Korea,2,0,home team win
+810,2006 FIFA Men's World Cup,2006,round of 16,2006-06-24 00:00:00,Argentina,Mexico,2,1,home team win
+809,2006 FIFA Men's World Cup,2006,round of 16,2006-06-24 00:00:00,Germany,Sweden,2,0,home team win
+811,2006 FIFA Men's World Cup,2006,round of 16,2006-06-25 00:00:00,England,Ecuador,1,0,home team win
+812,2006 FIFA Men's World Cup,2006,round of 16,2006-06-25 00:00:00,Portugal,Netherlands,1,0,home team win
+813,2006 FIFA Men's World Cup,2006,round of 16,2006-06-26 00:00:00,Italy,Australia,1,0,home team win
+814,2006 FIFA Men's World Cup,2006,round of 16,2006-06-26 00:00:00,Switzerland,Ukraine,0,0,away team win
+815,2006 FIFA Men's World Cup,2006,round of 16,2006-06-27 00:00:00,Brazil,Ghana,3,0,home team win
+816,2006 FIFA Men's World Cup,2006,round of 16,2006-06-27 00:00:00,Spain,France,1,3,away team win
+817,2006 FIFA Men's World Cup,2006,quarter-finals,2006-06-30 00:00:00,Germany,Argentina,1,1,home team win
+818,2006 FIFA Men's World Cup,2006,quarter-finals,2006-06-30 00:00:00,Italy,Ukraine,3,0,home team win
+819,2006 FIFA Men's World Cup,2006,quarter-finals,2006-07-01 00:00:00,England,Portugal,0,0,away team win
+820,2006 FIFA Men's World Cup,2006,quarter-finals,2006-07-01 00:00:00,Brazil,France,0,1,away team win
+821,2006 FIFA Men's World Cup,2006,semi-finals,2006-07-04 00:00:00,Germany,Italy,0,2,away team win
+822,2006 FIFA Men's World Cup,2006,semi-finals,2006-07-05 00:00:00,Portugal,France,0,1,away team win
+823,2006 FIFA Men's World Cup,2006,third-place match,2006-07-08 00:00:00,Germany,Portugal,3,1,home team win
+824,2006 FIFA Men's World Cup,2006,final,2006-07-09 00:00:00,Italy,France,1,1,home team win
+857,2010 FIFA Men's World Cup,2010,group stage,2010-06-11 00:00:00,South Africa,Mexico,1,1,draw
+858,2010 FIFA Men's World Cup,2010,group stage,2010-06-11 00:00:00,Uruguay,France,0,0,draw
+859,2010 FIFA Men's World Cup,2010,group stage,2010-06-12 00:00:00,South Korea,Greece,2,0,home team win
+860,2010 FIFA Men's World Cup,2010,group stage,2010-06-12 00:00:00,Argentina,Nigeria,1,0,home team win
+861,2010 FIFA Men's World Cup,2010,group stage,2010-06-12 00:00:00,England,United States,1,1,draw
+862,2010 FIFA Men's World Cup,2010,group stage,2010-06-13 00:00:00,Algeria,Slovenia,0,1,away team win
+863,2010 FIFA Men's World Cup,2010,group stage,2010-06-13 00:00:00,Serbia,Ghana,0,1,away team win
+864,2010 FIFA Men's World Cup,2010,group stage,2010-06-13 00:00:00,Germany,Australia,4,0,home team win
+865,2010 FIFA Men's World Cup,2010,group stage,2010-06-14 00:00:00,Netherlands,Denmark,2,0,home team win
+866,2010 FIFA Men's World Cup,2010,group stage,2010-06-14 00:00:00,Japan,Cameroon,1,0,home team win
+867,2010 FIFA Men's World Cup,2010,group stage,2010-06-14 00:00:00,Italy,Paraguay,1,1,draw
+869,2010 FIFA Men's World Cup,2010,group stage,2010-06-15 00:00:00,Ivory Coast,Portugal,0,0,draw
+868,2010 FIFA Men's World Cup,2010,group stage,2010-06-15 00:00:00,New Zealand,Slovakia,1,1,draw
+870,2010 FIFA Men's World Cup,2010,group stage,2010-06-15 00:00:00,Brazil,North Korea,2,1,home team win
+873,2010 FIFA Men's World Cup,2010,group stage,2010-06-16 00:00:00,South Africa,Uruguay,0,3,away team win
+872,2010 FIFA Men's World Cup,2010,group stage,2010-06-16 00:00:00,Spain,Switzerland,0,1,away team win
+871,2010 FIFA Men's World Cup,2010,group stage,2010-06-16 00:00:00,Honduras,Chile,0,1,away team win
+874,2010 FIFA Men's World Cup,2010,group stage,2010-06-17 00:00:00,Argentina,South Korea,4,1,home team win
+875,2010 FIFA Men's World Cup,2010,group stage,2010-06-17 00:00:00,Greece,Nigeria,2,1,home team win
+876,2010 FIFA Men's World Cup,2010,group stage,2010-06-17 00:00:00,France,Mexico,0,2,away team win
+877,2010 FIFA Men's World Cup,2010,group stage,2010-06-18 00:00:00,Germany,Serbia,0,1,away team win
+878,2010 FIFA Men's World Cup,2010,group stage,2010-06-18 00:00:00,Slovenia,United States,2,2,draw
+879,2010 FIFA Men's World Cup,2010,group stage,2010-06-18 00:00:00,England,Algeria,0,0,draw
+880,2010 FIFA Men's World Cup,2010,group stage,2010-06-19 00:00:00,Netherlands,Japan,1,0,home team win
+881,2010 FIFA Men's World Cup,2010,group stage,2010-06-19 00:00:00,Ghana,Australia,1,1,draw
+882,2010 FIFA Men's World Cup,2010,group stage,2010-06-19 00:00:00,Cameroon,Denmark,1,2,away team win
+883,2010 FIFA Men's World Cup,2010,group stage,2010-06-20 00:00:00,Slovakia,Paraguay,0,2,away team win
+884,2010 FIFA Men's World Cup,2010,group stage,2010-06-20 00:00:00,Italy,New Zealand,1,1,draw
+885,2010 FIFA Men's World Cup,2010,group stage,2010-06-20 00:00:00,Brazil,Ivory Coast,3,1,home team win
+887,2010 FIFA Men's World Cup,2010,group stage,2010-06-21 00:00:00,Chile,Switzerland,1,0,home team win
+888,2010 FIFA Men's World Cup,2010,group stage,2010-06-21 00:00:00,Spain,Honduras,2,0,home team win
+886,2010 FIFA Men's World Cup,2010,group stage,2010-06-21 00:00:00,Portugal,North Korea,7,0,home team win
+889,2010 FIFA Men's World Cup,2010,group stage,2010-06-22 00:00:00,France,South Africa,1,2,away team win
+890,2010 FIFA Men's World Cup,2010,group stage,2010-06-22 00:00:00,Mexico,Uruguay,0,1,away team win
+891,2010 FIFA Men's World Cup,2010,group stage,2010-06-22 00:00:00,Greece,Argentina,0,2,away team win
+892,2010 FIFA Men's World Cup,2010,group stage,2010-06-22 00:00:00,Nigeria,South Korea,2,2,draw
+893,2010 FIFA Men's World Cup,2010,group stage,2010-06-23 00:00:00,Slovenia,England,0,1,away team win
+894,2010 FIFA Men's World Cup,2010,group stage,2010-06-23 00:00:00,United States,Algeria,1,0,home team win
+895,2010 FIFA Men's World Cup,2010,group stage,2010-06-23 00:00:00,Australia,Serbia,2,1,home team win
+896,2010 FIFA Men's World Cup,2010,group stage,2010-06-23 00:00:00,Ghana,Germany,0,1,away team win
+897,2010 FIFA Men's World Cup,2010,group stage,2010-06-24 00:00:00,Paraguay,New Zealand,0,0,draw
+898,2010 FIFA Men's World Cup,2010,group stage,2010-06-24 00:00:00,Slovakia,Italy,3,2,home team win
+899,2010 FIFA Men's World Cup,2010,group stage,2010-06-24 00:00:00,Cameroon,Netherlands,1,2,away team win
+900,2010 FIFA Men's World Cup,2010,group stage,2010-06-24 00:00:00,Denmark,Japan,1,3,away team win
+904,2010 FIFA Men's World Cup,2010,group stage,2010-06-25 00:00:00,Switzerland,Honduras,0,0,draw
+903,2010 FIFA Men's World Cup,2010,group stage,2010-06-25 00:00:00,Chile,Spain,1,2,away team win
+901,2010 FIFA Men's World Cup,2010,group stage,2010-06-25 00:00:00,North Korea,Ivory Coast,0,3,away team win
+902,2010 FIFA Men's World Cup,2010,group stage,2010-06-25 00:00:00,Portugal,Brazil,0,0,draw
+905,2010 FIFA Men's World Cup,2010,round of 16,2010-06-26 00:00:00,Uruguay,South Korea,2,1,home team win
+906,2010 FIFA Men's World Cup,2010,round of 16,2010-06-26 00:00:00,United States,Ghana,1,2,away team win
+907,2010 FIFA Men's World Cup,2010,round of 16,2010-06-27 00:00:00,Germany,England,4,1,home team win
+908,2010 FIFA Men's World Cup,2010,round of 16,2010-06-27 00:00:00,Argentina,Mexico,3,1,home team win
+909,2010 FIFA Men's World Cup,2010,round of 16,2010-06-28 00:00:00,Netherlands,Slovakia,2,1,home team win
+910,2010 FIFA Men's World Cup,2010,round of 16,2010-06-28 00:00:00,Brazil,Chile,3,0,home team win
+911,2010 FIFA Men's World Cup,2010,round of 16,2010-06-29 00:00:00,Paraguay,Japan,0,0,home team win
+912,2010 FIFA Men's World Cup,2010,round of 16,2010-06-29 00:00:00,Spain,Portugal,1,0,home team win
+914,2010 FIFA Men's World Cup,2010,quarter-finals,2010-07-02 00:00:00,Uruguay,Ghana,1,1,home team win
+913,2010 FIFA Men's World Cup,2010,quarter-finals,2010-07-02 00:00:00,Netherlands,Brazil,2,1,home team win
+916,2010 FIFA Men's World Cup,2010,quarter-finals,2010-07-03 00:00:00,Paraguay,Spain,0,1,away team win
+915,2010 FIFA Men's World Cup,2010,quarter-finals,2010-07-03 00:00:00,Argentina,Germany,0,4,away team win
+917,2010 FIFA Men's World Cup,2010,semi-finals,2010-07-06 00:00:00,Uruguay,Netherlands,2,3,away team win
+918,2010 FIFA Men's World Cup,2010,semi-finals,2010-07-07 00:00:00,Germany,Spain,0,1,away team win
+919,2010 FIFA Men's World Cup,2010,third-place match,2010-07-10 00:00:00,Uruguay,Germany,2,3,away team win
+920,2010 FIFA Men's World Cup,2010,final,2010-07-11 00:00:00,Netherlands,Spain,0,1,away team win
+953,2014 FIFA Men's World Cup,2014,group stage,2014-06-12 00:00:00,Brazil,Croatia,3,1,home team win
+956,2014 FIFA Men's World Cup,2014,group stage,2014-06-13 00:00:00,Chile,Australia,3,1,home team win
+954,2014 FIFA Men's World Cup,2014,group stage,2014-06-13 00:00:00,Mexico,Cameroon,1,0,home team win
+955,2014 FIFA Men's World Cup,2014,group stage,2014-06-13 00:00:00,Spain,Netherlands,1,5,away team win
+959,2014 FIFA Men's World Cup,2014,group stage,2014-06-14 00:00:00,England,Italy,1,2,away team win
+960,2014 FIFA Men's World Cup,2014,group stage,2014-06-14 00:00:00,Ivory Coast,Japan,2,1,home team win
+957,2014 FIFA Men's World Cup,2014,group stage,2014-06-14 00:00:00,Colombia,Greece,3,0,home team win
+958,2014 FIFA Men's World Cup,2014,group stage,2014-06-14 00:00:00,Uruguay,Costa Rica,1,3,away team win
+962,2014 FIFA Men's World Cup,2014,group stage,2014-06-15 00:00:00,France,Honduras,3,0,home team win
+963,2014 FIFA Men's World Cup,2014,group stage,2014-06-15 00:00:00,Argentina,Bosnia and Herzegovina,2,1,home team win
+961,2014 FIFA Men's World Cup,2014,group stage,2014-06-15 00:00:00,Switzerland,Ecuador,2,1,home team win
+964,2014 FIFA Men's World Cup,2014,group stage,2014-06-16 00:00:00,Germany,Portugal,4,0,home team win
+965,2014 FIFA Men's World Cup,2014,group stage,2014-06-16 00:00:00,Iran,Nigeria,0,0,draw
+966,2014 FIFA Men's World Cup,2014,group stage,2014-06-16 00:00:00,Ghana,United States,1,2,away team win
+967,2014 FIFA Men's World Cup,2014,group stage,2014-06-17 00:00:00,Belgium,Algeria,2,1,home team win
+968,2014 FIFA Men's World Cup,2014,group stage,2014-06-17 00:00:00,Brazil,Mexico,0,0,draw
+969,2014 FIFA Men's World Cup,2014,group stage,2014-06-17 00:00:00,Russia,South Korea,1,1,draw
+970,2014 FIFA Men's World Cup,2014,group stage,2014-06-18 00:00:00,Australia,Netherlands,2,3,away team win
+971,2014 FIFA Men's World Cup,2014,group stage,2014-06-18 00:00:00,Spain,Chile,0,2,away team win
+972,2014 FIFA Men's World Cup,2014,group stage,2014-06-18 00:00:00,Cameroon,Croatia,0,4,away team win
+975,2014 FIFA Men's World Cup,2014,group stage,2014-06-19 00:00:00,Japan,Greece,0,0,draw
+973,2014 FIFA Men's World Cup,2014,group stage,2014-06-19 00:00:00,Colombia,Ivory Coast,2,1,home team win
+974,2014 FIFA Men's World Cup,2014,group stage,2014-06-19 00:00:00,Uruguay,England,2,1,home team win
+978,2014 FIFA Men's World Cup,2014,group stage,2014-06-20 00:00:00,Honduras,Ecuador,1,2,away team win
+976,2014 FIFA Men's World Cup,2014,group stage,2014-06-20 00:00:00,Italy,Costa Rica,0,1,away team win
+977,2014 FIFA Men's World Cup,2014,group stage,2014-06-20 00:00:00,Switzerland,France,2,5,away team win
+979,2014 FIFA Men's World Cup,2014,group stage,2014-06-21 00:00:00,Argentina,Iran,1,0,home team win
+980,2014 FIFA Men's World Cup,2014,group stage,2014-06-21 00:00:00,Germany,Ghana,2,2,draw
+981,2014 FIFA Men's World Cup,2014,group stage,2014-06-21 00:00:00,Nigeria,Bosnia and Herzegovina,1,0,home team win
+982,2014 FIFA Men's World Cup,2014,group stage,2014-06-22 00:00:00,Belgium,Russia,1,0,home team win
+983,2014 FIFA Men's World Cup,2014,group stage,2014-06-22 00:00:00,South Korea,Algeria,2,4,away team win
+984,2014 FIFA Men's World Cup,2014,group stage,2014-06-22 00:00:00,United States,Portugal,2,2,draw
+987,2014 FIFA Men's World Cup,2014,group stage,2014-06-23 00:00:00,Cameroon,Brazil,1,4,away team win
+985,2014 FIFA Men's World Cup,2014,group stage,2014-06-23 00:00:00,Australia,Spain,0,3,away team win
+986,2014 FIFA Men's World Cup,2014,group stage,2014-06-23 00:00:00,Netherlands,Chile,2,0,home team win
+988,2014 FIFA Men's World Cup,2014,group stage,2014-06-23 00:00:00,Croatia,Mexico,1,3,away team win
+992,2014 FIFA Men's World Cup,2014,group stage,2014-06-24 00:00:00,Greece,Ivory Coast,2,1,home team win
+991,2014 FIFA Men's World Cup,2014,group stage,2014-06-24 00:00:00,Japan,Colombia,1,4,away team win
+990,2014 FIFA Men's World Cup,2014,group stage,2014-06-24 00:00:00,Italy,Uruguay,0,1,away team win
+989,2014 FIFA Men's World Cup,2014,group stage,2014-06-24 00:00:00,Costa Rica,England,0,0,draw
+993,2014 FIFA Men's World Cup,2014,group stage,2014-06-25 00:00:00,Bosnia and Herzegovina,Iran,3,1,home team win
+994,2014 FIFA Men's World Cup,2014,group stage,2014-06-25 00:00:00,Nigeria,Argentina,2,3,away team win
+995,2014 FIFA Men's World Cup,2014,group stage,2014-06-25 00:00:00,Honduras,Switzerland,0,3,away team win
+996,2014 FIFA Men's World Cup,2014,group stage,2014-06-25 00:00:00,Ecuador,France,0,0,draw
+997,2014 FIFA Men's World Cup,2014,group stage,2014-06-26 00:00:00,Portugal,Ghana,2,1,home team win
+998,2014 FIFA Men's World Cup,2014,group stage,2014-06-26 00:00:00,United States,Germany,0,1,away team win
+999,2014 FIFA Men's World Cup,2014,group stage,2014-06-26 00:00:00,Algeria,Russia,1,1,draw
+1000,2014 FIFA Men's World Cup,2014,group stage,2014-06-26 00:00:00,South Korea,Belgium,0,1,away team win
+1001,2014 FIFA Men's World Cup,2014,round of 16,2014-06-28 00:00:00,Brazil,Chile,1,1,home team win
+1002,2014 FIFA Men's World Cup,2014,round of 16,2014-06-28 00:00:00,Colombia,Uruguay,2,0,home team win
+1003,2014 FIFA Men's World Cup,2014,round of 16,2014-06-29 00:00:00,Netherlands,Mexico,2,1,home team win
+1004,2014 FIFA Men's World Cup,2014,round of 16,2014-06-29 00:00:00,Costa Rica,Greece,1,1,home team win
+1006,2014 FIFA Men's World Cup,2014,round of 16,2014-06-30 00:00:00,Germany,Algeria,2,1,home team win
+1005,2014 FIFA Men's World Cup,2014,round of 16,2014-06-30 00:00:00,France,Nigeria,2,0,home team win
+1007,2014 FIFA Men's World Cup,2014,round of 16,2014-07-01 00:00:00,Argentina,Switzerland,1,0,home team win
+1008,2014 FIFA Men's World Cup,2014,round of 16,2014-07-01 00:00:00,Belgium,United States,2,1,home team win
+1009,2014 FIFA Men's World Cup,2014,quarter-finals,2014-07-04 00:00:00,France,Germany,0,1,away team win
+1010,2014 FIFA Men's World Cup,2014,quarter-finals,2014-07-04 00:00:00,Brazil,Colombia,2,1,home team win
+1011,2014 FIFA Men's World Cup,2014,quarter-finals,2014-07-05 00:00:00,Argentina,Belgium,1,0,home team win
+1012,2014 FIFA Men's World Cup,2014,quarter-finals,2014-07-05 00:00:00,Netherlands,Costa Rica,0,0,home team win
+1013,2014 FIFA Men's World Cup,2014,semi-finals,2014-07-08 00:00:00,Brazil,Germany,1,7,away team win
+1014,2014 FIFA Men's World Cup,2014,semi-finals,2014-07-09 00:00:00,Netherlands,Argentina,0,0,away team win
+1015,2014 FIFA Men's World Cup,2014,third-place match,2014-07-12 00:00:00,Brazil,Netherlands,0,3,away team win
+1016,2014 FIFA Men's World Cup,2014,final,2014-07-13 00:00:00,Germany,Argentina,1,0,home team win
+1069,2018 FIFA Men's World Cup,2018,group stage,2018-06-14 00:00:00,Russia,Saudi Arabia,5,0,home team win
+1071,2018 FIFA Men's World Cup,2018,group stage,2018-06-15 00:00:00,Morocco,Iran,0,1,away team win
+1072,2018 FIFA Men's World Cup,2018,group stage,2018-06-15 00:00:00,Portugal,Spain,3,3,draw
+1070,2018 FIFA Men's World Cup,2018,group stage,2018-06-15 00:00:00,Egypt,Uruguay,0,1,away team win
+1075,2018 FIFA Men's World Cup,2018,group stage,2018-06-16 00:00:00,Peru,Denmark,0,1,away team win
+1076,2018 FIFA Men's World Cup,2018,group stage,2018-06-16 00:00:00,Croatia,Nigeria,2,0,home team win
+1073,2018 FIFA Men's World Cup,2018,group stage,2018-06-16 00:00:00,France,Australia,2,1,home team win
+1074,2018 FIFA Men's World Cup,2018,group stage,2018-06-16 00:00:00,Argentina,Iceland,1,1,draw
+1077,2018 FIFA Men's World Cup,2018,group stage,2018-06-17 00:00:00,Costa Rica,Serbia,0,1,away team win
+1078,2018 FIFA Men's World Cup,2018,group stage,2018-06-17 00:00:00,Germany,Mexico,0,1,away team win
+1079,2018 FIFA Men's World Cup,2018,group stage,2018-06-17 00:00:00,Brazil,Switzerland,1,1,draw
+1080,2018 FIFA Men's World Cup,2018,group stage,2018-06-18 00:00:00,Sweden,South Korea,1,0,home team win
+1081,2018 FIFA Men's World Cup,2018,group stage,2018-06-18 00:00:00,Belgium,Panama,3,0,home team win
+1082,2018 FIFA Men's World Cup,2018,group stage,2018-06-18 00:00:00,Tunisia,England,1,2,away team win
+1083,2018 FIFA Men's World Cup,2018,group stage,2018-06-19 00:00:00,Colombia,Japan,1,2,away team win
+1084,2018 FIFA Men's World Cup,2018,group stage,2018-06-19 00:00:00,Poland,Senegal,1,2,away team win
+1085,2018 FIFA Men's World Cup,2018,group stage,2018-06-19 00:00:00,Russia,Egypt,3,1,home team win
+1086,2018 FIFA Men's World Cup,2018,group stage,2018-06-20 00:00:00,Portugal,Morocco,1,0,home team win
+1087,2018 FIFA Men's World Cup,2018,group stage,2018-06-20 00:00:00,Uruguay,Saudi Arabia,1,0,home team win
+1088,2018 FIFA Men's World Cup,2018,group stage,2018-06-20 00:00:00,Iran,Spain,0,1,away team win
+1091,2018 FIFA Men's World Cup,2018,group stage,2018-06-21 00:00:00,Argentina,Croatia,0,3,away team win
+1089,2018 FIFA Men's World Cup,2018,group stage,2018-06-21 00:00:00,Denmark,Australia,1,1,draw
+1090,2018 FIFA Men's World Cup,2018,group stage,2018-06-21 00:00:00,France,Peru,1,0,home team win
+1092,2018 FIFA Men's World Cup,2018,group stage,2018-06-22 00:00:00,Brazil,Costa Rica,2,0,home team win
+1093,2018 FIFA Men's World Cup,2018,group stage,2018-06-22 00:00:00,Nigeria,Iceland,2,0,home team win
+1094,2018 FIFA Men's World Cup,2018,group stage,2018-06-22 00:00:00,Serbia,Switzerland,1,2,away team win
+1095,2018 FIFA Men's World Cup,2018,group stage,2018-06-23 00:00:00,Belgium,Tunisia,5,2,home team win
+1096,2018 FIFA Men's World Cup,2018,group stage,2018-06-23 00:00:00,South Korea,Mexico,1,2,away team win
+1097,2018 FIFA Men's World Cup,2018,group stage,2018-06-23 00:00:00,Germany,Sweden,2,1,home team win
+1100,2018 FIFA Men's World Cup,2018,group stage,2018-06-24 00:00:00,Poland,Colombia,0,3,away team win
+1098,2018 FIFA Men's World Cup,2018,group stage,2018-06-24 00:00:00,England,Panama,6,1,home team win
+1099,2018 FIFA Men's World Cup,2018,group stage,2018-06-24 00:00:00,Japan,Senegal,2,2,draw
+1103,2018 FIFA Men's World Cup,2018,group stage,2018-06-25 00:00:00,Spain,Morocco,2,2,draw
+1104,2018 FIFA Men's World Cup,2018,group stage,2018-06-25 00:00:00,Iran,Portugal,1,1,draw
+1101,2018 FIFA Men's World Cup,2018,group stage,2018-06-25 00:00:00,Saudi Arabia,Egypt,2,1,home team win
+1102,2018 FIFA Men's World Cup,2018,group stage,2018-06-25 00:00:00,Uruguay,Russia,3,0,home team win
+1108,2018 FIFA Men's World Cup,2018,group stage,2018-06-26 00:00:00,Nigeria,Argentina,1,2,away team win
+1107,2018 FIFA Men's World Cup,2018,group stage,2018-06-26 00:00:00,Iceland,Croatia,1,2,away team win
+1105,2018 FIFA Men's World Cup,2018,group stage,2018-06-26 00:00:00,Australia,Peru,0,2,away team win
+1106,2018 FIFA Men's World Cup,2018,group stage,2018-06-26 00:00:00,Denmark,France,0,0,draw
+1109,2018 FIFA Men's World Cup,2018,group stage,2018-06-27 00:00:00,South Korea,Germany,2,0,home team win
+1110,2018 FIFA Men's World Cup,2018,group stage,2018-06-27 00:00:00,Mexico,Sweden,0,3,away team win
+1111,2018 FIFA Men's World Cup,2018,group stage,2018-06-27 00:00:00,Serbia,Brazil,0,2,away team win
+1112,2018 FIFA Men's World Cup,2018,group stage,2018-06-27 00:00:00,Switzerland,Costa Rica,2,2,draw
+1113,2018 FIFA Men's World Cup,2018,group stage,2018-06-28 00:00:00,Japan,Poland,0,1,away team win
+1114,2018 FIFA Men's World Cup,2018,group stage,2018-06-28 00:00:00,Senegal,Colombia,0,1,away team win
+1115,2018 FIFA Men's World Cup,2018,group stage,2018-06-28 00:00:00,England,Belgium,0,1,away team win
+1116,2018 FIFA Men's World Cup,2018,group stage,2018-06-28 00:00:00,Panama,Tunisia,1,2,away team win
+1118,2018 FIFA Men's World Cup,2018,round of 16,2018-06-30 00:00:00,Uruguay,Portugal,2,1,home team win
+1117,2018 FIFA Men's World Cup,2018,round of 16,2018-06-30 00:00:00,France,Argentina,4,3,home team win
+1119,2018 FIFA Men's World Cup,2018,round of 16,2018-07-01 00:00:00,Spain,Russia,1,1,away team win
+1120,2018 FIFA Men's World Cup,2018,round of 16,2018-07-01 00:00:00,Croatia,Denmark,1,1,home team win
+1122,2018 FIFA Men's World Cup,2018,round of 16,2018-07-02 00:00:00,Belgium,Japan,3,2,home team win
+1121,2018 FIFA Men's World Cup,2018,round of 16,2018-07-02 00:00:00,Brazil,Mexico,2,0,home team win
+1123,2018 FIFA Men's World Cup,2018,round of 16,2018-07-03 00:00:00,Sweden,Switzerland,1,0,home team win
+1124,2018 FIFA Men's World Cup,2018,round of 16,2018-07-03 00:00:00,Colombia,England,1,1,away team win
+1125,2018 FIFA Men's World Cup,2018,quarter-finals,2018-07-06 00:00:00,Uruguay,France,0,2,away team win
+1126,2018 FIFA Men's World Cup,2018,quarter-finals,2018-07-06 00:00:00,Brazil,Belgium,1,2,away team win
+1127,2018 FIFA Men's World Cup,2018,quarter-finals,2018-07-07 00:00:00,Sweden,England,0,2,away team win
+1128,2018 FIFA Men's World Cup,2018,quarter-finals,2018-07-07 00:00:00,Russia,Croatia,2,2,away team win
+1129,2018 FIFA Men's World Cup,2018,semi-finals,2018-07-10 00:00:00,France,Belgium,1,0,home team win
+1130,2018 FIFA Men's World Cup,2018,semi-finals,2018-07-11 00:00:00,Croatia,England,2,1,home team win
+1131,2018 FIFA Men's World Cup,2018,third-place match,2018-07-14 00:00:00,Belgium,England,2,0,home team win
+1132,2018 FIFA Men's World Cup,2018,final,2018-07-15 00:00:00,France,Croatia,4,2,home team win
+1185,2022 FIFA Men's World Cup,2022,group stage,2022-11-20 00:00:00,Qatar,Ecuador,0,2,away team win
+1188,2022 FIFA Men's World Cup,2022,group stage,2022-11-21 00:00:00,United States,Wales,1,1,draw
+1186,2022 FIFA Men's World Cup,2022,group stage,2022-11-21 00:00:00,England,Iran,6,2,home team win
+1187,2022 FIFA Men's World Cup,2022,group stage,2022-11-21 00:00:00,Senegal,Netherlands,0,2,away team win
+1189,2022 FIFA Men's World Cup,2022,group stage,2022-11-22 00:00:00,Argentina,Saudi Arabia,1,2,away team win
+1190,2022 FIFA Men's World Cup,2022,group stage,2022-11-22 00:00:00,Denmark,Tunisia,0,0,draw
+1191,2022 FIFA Men's World Cup,2022,group stage,2022-11-22 00:00:00,Mexico,Poland,0,0,draw
+1192,2022 FIFA Men's World Cup,2022,group stage,2022-11-22 00:00:00,France,Australia,4,1,home team win
+1193,2022 FIFA Men's World Cup,2022,group stage,2022-11-23 00:00:00,Morocco,Croatia,0,0,draw
+1194,2022 FIFA Men's World Cup,2022,group stage,2022-11-23 00:00:00,Germany,Japan,1,2,away team win
+1195,2022 FIFA Men's World Cup,2022,group stage,2022-11-23 00:00:00,Spain,Costa Rica,7,0,home team win
+1196,2022 FIFA Men's World Cup,2022,group stage,2022-11-23 00:00:00,Belgium,Canada,1,0,home team win
+1200,2022 FIFA Men's World Cup,2022,group stage,2022-11-24 00:00:00,Brazil,Serbia,2,0,home team win
+1197,2022 FIFA Men's World Cup,2022,group stage,2022-11-24 00:00:00,Switzerland,Cameroon,1,0,home team win
+1198,2022 FIFA Men's World Cup,2022,group stage,2022-11-24 00:00:00,Uruguay,South Korea,0,0,draw
+1199,2022 FIFA Men's World Cup,2022,group stage,2022-11-24 00:00:00,Portugal,Ghana,3,2,home team win
+1204,2022 FIFA Men's World Cup,2022,group stage,2022-11-25 00:00:00,England,United States,0,0,draw
+1203,2022 FIFA Men's World Cup,2022,group stage,2022-11-25 00:00:00,Netherlands,Ecuador,1,1,draw
+1201,2022 FIFA Men's World Cup,2022,group stage,2022-11-25 00:00:00,Wales,Iran,0,2,away team win
+1202,2022 FIFA Men's World Cup,2022,group stage,2022-11-25 00:00:00,Qatar,Senegal,1,3,away team win
+1205,2022 FIFA Men's World Cup,2022,group stage,2022-11-26 00:00:00,Tunisia,Australia,0,1,away team win
+1206,2022 FIFA Men's World Cup,2022,group stage,2022-11-26 00:00:00,Poland,Saudi Arabia,2,0,home team win
+1207,2022 FIFA Men's World Cup,2022,group stage,2022-11-26 00:00:00,France,Denmark,2,1,home team win
+1208,2022 FIFA Men's World Cup,2022,group stage,2022-11-26 00:00:00,Argentina,Mexico,2,0,home team win
+1212,2022 FIFA Men's World Cup,2022,group stage,2022-11-27 00:00:00,Spain,Germany,1,1,draw
+1209,2022 FIFA Men's World Cup,2022,group stage,2022-11-27 00:00:00,Japan,Costa Rica,0,1,away team win
+1210,2022 FIFA Men's World Cup,2022,group stage,2022-11-27 00:00:00,Belgium,Morocco,0,2,away team win
+1211,2022 FIFA Men's World Cup,2022,group stage,2022-11-27 00:00:00,Croatia,Canada,4,1,home team win
+1215,2022 FIFA Men's World Cup,2022,group stage,2022-11-28 00:00:00,Brazil,Switzerland,1,0,home team win
+1216,2022 FIFA Men's World Cup,2022,group stage,2022-11-28 00:00:00,Portugal,Uruguay,2,0,home team win
+1213,2022 FIFA Men's World Cup,2022,group stage,2022-11-28 00:00:00,Cameroon,Serbia,3,3,draw
+1214,2022 FIFA Men's World Cup,2022,group stage,2022-11-28 00:00:00,South Korea,Ghana,2,3,away team win
+1220,2022 FIFA Men's World Cup,2022,group stage,2022-11-29 00:00:00,Wales,England,0,3,away team win
+1219,2022 FIFA Men's World Cup,2022,group stage,2022-11-29 00:00:00,Iran,United States,0,1,away team win
+1217,2022 FIFA Men's World Cup,2022,group stage,2022-11-29 00:00:00,Ecuador,Senegal,1,2,away team win
+1218,2022 FIFA Men's World Cup,2022,group stage,2022-11-29 00:00:00,Netherlands,Qatar,2,0,home team win
+1221,2022 FIFA Men's World Cup,2022,group stage,2022-11-30 00:00:00,Australia,Denmark,1,0,home team win
+1222,2022 FIFA Men's World Cup,2022,group stage,2022-11-30 00:00:00,Tunisia,France,1,0,home team win
+1223,2022 FIFA Men's World Cup,2022,group stage,2022-11-30 00:00:00,Poland,Argentina,0,2,away team win
+1224,2022 FIFA Men's World Cup,2022,group stage,2022-11-30 00:00:00,Saudi Arabia,Mexico,1,2,away team win
+1225,2022 FIFA Men's World Cup,2022,group stage,2022-12-01 00:00:00,Canada,Morocco,1,2,away team win
+1226,2022 FIFA Men's World Cup,2022,group stage,2022-12-01 00:00:00,Croatia,Belgium,0,0,draw
+1227,2022 FIFA Men's World Cup,2022,group stage,2022-12-01 00:00:00,Costa Rica,Germany,2,4,away team win
+1228,2022 FIFA Men's World Cup,2022,group stage,2022-12-01 00:00:00,Japan,Spain,2,1,home team win
+1232,2022 FIFA Men's World Cup,2022,group stage,2022-12-02 00:00:00,Serbia,Switzerland,2,3,away team win
+1231,2022 FIFA Men's World Cup,2022,group stage,2022-12-02 00:00:00,Cameroon,Brazil,1,0,home team win
+1229,2022 FIFA Men's World Cup,2022,group stage,2022-12-02 00:00:00,Ghana,Uruguay,0,2,away team win
+1230,2022 FIFA Men's World Cup,2022,group stage,2022-12-02 00:00:00,South Korea,Portugal,2,1,home team win
+1233,2022 FIFA Men's World Cup,2022,round of 16,2022-12-03 00:00:00,Netherlands,United States,3,1,home team win
+1234,2022 FIFA Men's World Cup,2022,round of 16,2022-12-03 00:00:00,Argentina,Australia,2,1,home team win
+1235,2022 FIFA Men's World Cup,2022,round of 16,2022-12-04 00:00:00,France,Poland,3,1,home team win
+1236,2022 FIFA Men's World Cup,2022,round of 16,2022-12-04 00:00:00,England,Senegal,3,0,home team win
+1237,2022 FIFA Men's World Cup,2022,round of 16,2022-12-05 00:00:00,Japan,Croatia,1,1,away team win
+1238,2022 FIFA Men's World Cup,2022,round of 16,2022-12-05 00:00:00,Brazil,South Korea,4,1,home team win
+1239,2022 FIFA Men's World Cup,2022,round of 16,2022-12-06 00:00:00,Morocco,Spain,0,0,home team win
+1240,2022 FIFA Men's World Cup,2022,round of 16,2022-12-06 00:00:00,Portugal,Switzerland,6,1,home team win
+1241,2022 FIFA Men's World Cup,2022,quarter-finals,2022-12-09 00:00:00,Croatia,Brazil,1,1,home team win
+1242,2022 FIFA Men's World Cup,2022,quarter-finals,2022-12-09 00:00:00,Netherlands,Argentina,2,2,away team win
+1243,2022 FIFA Men's World Cup,2022,quarter-finals,2022-12-10 00:00:00,Morocco,Portugal,1,0,home team win
+1244,2022 FIFA Men's World Cup,2022,quarter-finals,2022-12-10 00:00:00,England,France,1,2,away team win
+1245,2022 FIFA Men's World Cup,2022,semi-finals,2022-12-13 00:00:00,Argentina,Croatia,3,0,home team win
+1246,2022 FIFA Men's World Cup,2022,semi-finals,2022-12-14 00:00:00,France,Morocco,2,0,home team win
+1247,2022 FIFA Men's World Cup,2022,third-place match,2022-12-17 00:00:00,Croatia,Morocco,2,1,home team win
+1248,2022 FIFA Men's World Cup,2022,final,2022-12-18 00:00:00,Argentina,France,3,3,home team win
