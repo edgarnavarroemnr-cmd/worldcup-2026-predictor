@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Cup 2026 Predictor &middot; Edgar Navarro</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;600&display=swap');
+
+  :root{
+    --bg:#0a0e1a; --panel:#121829; --panel2:#1a2238; --line:#26304d;
+    --ink:#f4f6fb; --muted:#8a96b8; --green:#00d873; --green-dim:#006847;
+    --red:#ff3355; --gold:#ffc94d; --accent:#3d7bff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:'Archivo',sans-serif;
+    background-image:radial-gradient(circle at 15% -10%,rgba(61,123,255,.08),transparent 40%),
+                     radial-gradient(circle at 90% 0%,rgba(0,216,115,.06),transparent 35%);
+    min-height:100vh;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1160px;margin:0 auto;padding:32px 24px 64px}
+
+  /* Header */
+  header{border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:32px;
+    display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px}
+  .pre{font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.22em;
+    text-transform:uppercase;color:var(--green);margin-bottom:10px}
+  h1{font-family:'Archivo Black',sans-serif;font-size:clamp(30px,5vw,52px);line-height:.96;
+    letter-spacing:-.02em}
+  h1 .yr{color:var(--green)}
+  .sub{color:var(--muted);font-size:14px;margin-top:10px;max-width:480px;line-height:1.5}
+  .lang{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);
+    border-radius:100px;padding:4px}
+  .lang button{background:none;border:none;color:var(--muted);font-family:'Spline Sans Mono',monospace;
+    font-size:12px;font-weight:600;padding:7px 14px;border-radius:100px;cursor:pointer;transition:.2s}
+  .lang button.on{background:var(--green);color:#001a0d}
+
+  /* KPI row */
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:30px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;
+    position:relative;overflow:hidden}
+  .kpi::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:var(--green)}
+  .kpi .v{font-family:'Archivo Black',sans-serif;font-size:30px;line-height:1;margin-bottom:6px}
+  .kpi .l{font-size:11.5px;color:var(--muted);line-height:1.35}
+  .kpi.gold::before{background:var(--gold)} .kpi.acc::before{background:var(--accent)}
+  .kpi.red::before{background:var(--red)}
+
+  /* Grid */
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
+  .card.full{grid-column:1/-1}
+  .card h3{font-size:15px;font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+  .card .cap{font-size:12px;color:var(--muted);margin-bottom:18px;line-height:1.45}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--green);display:inline-block}
+  .chartbox{position:relative;height:300px}
+  .chartbox.tall{height:360px}
+
+  /* Model panel */
+  .models{display:flex;gap:14px;flex-wrap:wrap}
+  .model{flex:1;min-width:200px;background:var(--panel2);border:1px solid var(--line);
+    border-radius:12px;padding:16px}
+  .model.win{border-color:var(--green);box-shadow:0 0 0 1px var(--green) inset}
+  .model .name{font-size:13px;font-weight:700;margin-bottom:14px;display:flex;justify-content:space-between}
+  .badge{font-family:'Spline Sans Mono',monospace;font-size:9px;background:var(--green);color:#001a0d;
+    padding:3px 7px;border-radius:5px;letter-spacing:.05em}
+  .metric{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--line);
+    font-size:13px}
+  .metric:last-child{border:none}
+  .metric .mv{font-family:'Spline Sans Mono',monospace;font-weight:600;color:var(--green)}
+  .note{font-size:11.5px;color:var(--muted);margin-top:14px;line-height:1.5;
+    padding:12px;background:rgba(61,123,255,.07);border-radius:9px;border:1px solid rgba(61,123,255,.2)}
+
+  footer{margin-top:36px;padding-top:22px;border-top:1px solid var(--line);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;
+    font-size:12px;color:var(--muted)}
+  footer a{color:var(--green);text-decoration:none}
+  .stack{font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.05em}
+  @media(max-width:760px){.kpis{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="pre" data-es="Proyecto de An&aacute;lisis Deportivo" data-en="Sports Analytics Project">Proyecto de An&aacute;lisis Deportivo</div>
+      <h1>WORLD&nbsp;CUP&nbsp;<span class="yr">2026</span><br>PREDICTOR</h1>
+      <p class="sub" data-es="Modelo predictivo y an&aacute;lisis hist&oacute;rico de 960 partidos de Copa del Mundo (1930&ndash;2022). Construido con Python, SQL y visualizaci&oacute;n de datos."
+         data-en="Predictive model and historical analysis of 960 World Cup matches (1930&ndash;2022). Built with Python, SQL and data visualization.">Modelo predictivo y an&aacute;lisis hist&oacute;rico de 960 partidos de Copa del Mundo (1930&ndash;2022). Construido con Python, SQL y visualizaci&oacute;n de datos.</p>
+    </div>
+    <div class="lang">
+      <button id="b-es" class="on" onclick="setLang('es')">ES</button>
+      <button id="b-en" onclick="setLang('en')">EN</button>
+    </div>
+  </header>
+
+  <div class="kpis">
+    <div class="kpi"><div class="v">960</div><div class="l" data-es="Partidos analizados (1930&ndash;2022)" data-en="Matches analyzed (1930&ndash;2022)">Partidos analizados (1930&ndash;2022)</div></div>
+    <div class="kpi acc"><div class="v" id="kpi-acc">69.5%</div><div class="l" data-es="Precisi&oacute;n del modelo (test 2018+2022)" data-en="Model accuracy (test 2018+2022)">Precisi&oacute;n del modelo (test 2018+2022)</div></div>
+    <div class="kpi gold"><div class="v">0.71</div><div class="l" data-es="AUC &mdash; capacidad de discriminaci&oacute;n" data-en="AUC &mdash; discrimination power">AUC &mdash; capacidad de discriminaci&oacute;n</div></div>
+    <div class="kpi red"><div class="v">88</div><div class="l" data-es="Selecciones en el dataset" data-en="National teams in dataset">Selecciones en el dataset</div></div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3><span class="dot"></span><span data-es="Potencia hist&oacute;rica &mdash; Top 12" data-en="All-Time Strength &mdash; Top 12">Potencia hist&oacute;rica &mdash; Top 12</span></h3>
+      <p class="cap" data-es="&Iacute;ndice compuesto: tasa de victorias, experiencia y diferencia de goles." data-en="Composite index: win rate, experience and goal differential.">&Iacute;ndice compuesto: tasa de victorias, experiencia y diferencia de goles.</p>
+      <div class="chartbox tall"><canvas id="strengthChart"></canvas></div>
+    </div>
+
+    <div class="card">
+      <h3><span class="dot" style="background:var(--gold)"></span><span data-es="M&eacute;xico en el Mundial" data-en="Mexico at the World Cup">M&eacute;xico en el Mundial</span></h3>
+      <p class="cap" data-es="Puntos por partido en cada torneo. Pico hist&oacute;rico: M&eacute;xico 1986." data-en="Points per game in each tournament. Historic peak: Mexico 1986.">Puntos por partido en cada torneo. Pico hist&oacute;rico: M&eacute;xico 1986.</p>
+      <div class="chartbox tall"><canvas id="mexicoChart"></canvas></div>
+    </div>
+
+    <div class="card">
+      <h3><span class="dot" style="background:var(--accent)"></span><span data-es="Goles por partido en el tiempo" data-en="Goals per Match Over Time">Goles por partido en el tiempo</span></h3>
+      <p class="cap" data-es="El f&uacute;tbol moderno se volvi&oacute; m&aacute;s defensivo desde los a&ntilde;os 50." data-en="Modern football grew more defensive since the 1950s.">El f&uacute;tbol moderno se volvi&oacute; m&aacute;s defensivo desde los a&ntilde;os 50.</p>
+      <div class="chartbox"><canvas id="goalsChart"></canvas></div>
+    </div>
+
+    <div class="card">
+      <h3><span class="dot" style="background:var(--red)"></span><span data-es="&iquest;Qu&eacute; predice un resultado?" data-en="What Predicts a Result?">&iquest;Qu&eacute; predice un resultado?</span></h3>
+      <p class="cap" data-es="Importancia de variables seg&uacute;n el modelo Random Forest." data-en="Feature importance from the Random Forest model.">Importancia de variables seg&uacute;n el modelo Random Forest.</p>
+      <div class="chartbox"><canvas id="importanceChart"></canvas></div>
+    </div>
+
+    <div class="card full">
+      <h3><span class="dot"></span><span data-es="Evaluaci&oacute;n de modelos &mdash; validaci&oacute;n temporal honesta" data-en="Model Evaluation &mdash; honest temporal validation">Evaluaci&oacute;n de modelos &mdash; validaci&oacute;n temporal honesta</span></h3>
+      <p class="cap" data-es="Entrenado con Mundiales hasta 2014, probado en torneos nunca vistos (2018 y 2022)." data-en="Trained on World Cups through 2014, tested on unseen tournaments (2018 &amp; 2022).">Entrenado con Mundiales hasta 2014, probado en torneos nunca vistos (2018 y 2022).</p>
+      <div class="models">
+        <div class="model">
+          <div class="name"><span>Logistic Regression</span></div>
+          <div class="metric"><span data-es="Precisi&oacute;n" data-en="Accuracy">Precisi&oacute;n</span><span class="mv">68.8%</span></div>
+          <div class="metric"><span>Log loss</span><span class="mv">0.671</span></div>
+          <div class="metric"><span>Brier</span><span class="mv">0.228</span></div>
+          <div class="metric"><span>AUC</span><span class="mv">0.674</span></div>
+        </div>
+        <div class="model win">
+          <div class="name"><span>Random Forest</span><span class="badge" data-es="MEJOR" data-en="BEST">MEJOR</span></div>
+          <div class="metric"><span data-es="Precisi&oacute;n" data-en="Accuracy">Precisi&oacute;n</span><span class="mv">69.5%</span></div>
+          <div class="metric"><span>Log loss</span><span class="mv">0.631</span></div>
+          <div class="metric"><span>Brier</span><span class="mv">0.217</span></div>
+          <div class="metric"><span>AUC</span><span class="mv">0.712</span></div>
+        </div>
+      </div>
+      <p class="note" data-es="&#128161; Nota metodol&oacute;gica: todas las variables usan &uacute;nicamente informaci&oacute;n previa a cada partido (sin fuga de datos). Un 69.5% sobre un baseline de 43% es un resultado realista &mdash; una precisi&oacute;n del 95% indicar&iacute;a sobreajuste o data leakage."
+         data-en="&#128161; Methodology note: all features use only pre-match information (no data leakage). 69.5% over a 43% baseline is a realistic result &mdash; 95% accuracy would signal overfitting or data leakage.">&#128161; Nota metodol&oacute;gica: todas las variables usan &uacute;nicamente informaci&oacute;n previa a cada partido (sin fuga de datos). Un 69.5% sobre un baseline de 43% es un resultado realista &mdash; una precisi&oacute;n del 95% indicar&iacute;a sobreajuste o data leakage.</p>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <div class="stack">PYTHON &middot; SQL &middot; SCIKIT-LEARN &middot; CHART.JS</div>
+      <div style="margin-top:6px" data-es="Fuente: Fjelstul World Cup Database (CC-BY-SA 4.0)" data-en="Source: Fjelstul World Cup Database (CC-BY-SA 4.0)">Fuente: Fjelstul World Cup Database (CC-BY-SA 4.0)</div>
+    </div>
+    <div style="text-align:right">
+      <strong style="color:var(--ink)">Edgar Navarro</strong><br>
+      <span data-es="Analista de Datos Biling&uuml;e" data-en="Bilingual Data Analyst">Analista de Datos Biling&uuml;e</span>
+    </div>
+  </footer>
+</div>
+
+<script>
+const DATA = {"strength": [{"team": "Brazil", "score": 2.4, "winrate": 0.664, "matches": 113, "gd": 1.13}, {"team": "Argentina", "score": 1.69, "winrate": 0.534, "matches": 88, "gd": 0.58}, {"team": "Germany", "score": 1.65, "winrate": 0.653, "matches": 49, "gd": 1.02}, {"team": "Italy", "score": 1.64, "winrate": 0.537, "matches": 82, "gd": 0.61}, {"team": "West Germany", "score": 1.59, "winrate": 0.581, "matches": 62, "gd": 0.87}, {"team": "France", "score": 1.56, "winrate": 0.534, "matches": 73, "gd": 0.7}, {"team": "Netherlands", "score": 1.41, "winrate": 0.545, "matches": 55, "gd": 0.8}, {"team": "Spain", "score": 1.29, "winrate": 0.47, "matches": 66, "gd": 0.52}, {"team": "England", "score": 1.28, "winrate": 0.432, "matches": 74, "gd": 0.49}, {"team": "Uruguay", "score": 1.03, "winrate": 0.424, "matches": 59, "gd": 0.22}, {"team": "Hungary", "score": 1.01, "winrate": 0.469, "matches": 32, "gd": 0.94}, {"team": "Portugal", "score": 1.0, "winrate": 0.486, "matches": 35, "gd": 0.57}], "mexico": [{"year": 1930, "ppg": 0.0}, {"year": 1950, "ppg": 0.0}, {"year": 1954, "ppg": 0.0}, {"year": 1958, "ppg": 0.33}, {"year": 1962, "ppg": 1.0}, {"year": 1966, "ppg": 0.67}, {"year": 1970, "ppg": 1.75}, {"year": 1978, "ppg": 0.0}, {"year": 1986, "ppg": 2.2}, {"year": 1994, "ppg": 1.25}, {"year": 1998, "ppg": 1.25}, {"year": 2002, "ppg": 1.75}, {"year": 2006, "ppg": 1.0}, {"year": 2010, "ppg": 1.0}, {"year": 2014, "ppg": 1.75}, {"year": 2018, "ppg": 1.5}, {"year": 2022, "ppg": 1.33}], "goals": [{"year": 1930, "gpm": 3.89}, {"year": 1934, "gpm": 4.31}, {"year": 1938, "gpm": 4.8}, {"year": 1950, "gpm": 4.0}, {"year": 1954, "gpm": 5.38}, {"year": 1958, "gpm": 3.6}, {"year": 1962, "gpm": 2.78}, {"year": 1966, "gpm": 2.78}, {"year": 1970, "gpm": 2.97}, {"year": 1974, "gpm": 2.55}, {"year": 1978, "gpm": 2.68}, {"year": 1982, "gpm": 2.81}, {"year": 1986, "gpm": 2.54}, {"year": 1990, "gpm": 2.21}, {"year": 1994, "gpm": 2.71}, {"year": 1998, "gpm": 2.67}, {"year": 2002, "gpm": 2.52}, {"year": 2006, "gpm": 2.3}, {"year": 2010, "gpm": 2.27}, {"year": 2014, "gpm": 2.67}, {"year": 2018, "gpm": 2.64}, {"year": 2022, "gpm": 2.69}], "importance": [{"feature": "GF prom. previo (local)", "feature_en": "Prior GF avg (home)", "value": 0.129}, {"feature": "Experiencia (visitante)", "feature_en": "Experience (away)", "value": 0.113}, {"feature": "Dif. victorias previas", "feature_en": "Diff. prior wins", "value": 0.096}, {"feature": "Dif. experiencia", "feature_en": "Diff. experience", "value": 0.093}, {"feature": "Victorias previas (visit.)", "feature_en": "Prior wins (away)", "value": 0.081}, {"feature": "Dif. GF promedio", "feature_en": "Diff. GF average", "value": 0.062}]};
+
+const C = {green:'#00d873',gold:'#ffc94d',accent:'#3d7bff',red:'#ff3355',ink:'#f4f6fb',muted:'#8a96b8',line:'#26304d'};
+Chart.defaults.color = C.muted;
+Chart.defaults.font.family = 'Archivo, sans-serif';
+Chart.defaults.borderColor = C.line;
+
+// Strength (horizontal bar, Mexico-flag green, Brazil highlighted gold)
+new Chart(document.getElementById('strengthChart'),{
+  type:'bar',
+  data:{labels:DATA.strength.map(d=>d.team),
+    datasets:[{data:DATA.strength.map(d=>d.score),
+      backgroundColor:DATA.strength.map((d,i)=>i===0?C.gold:C.accent),
+      borderRadius:5,barThickness:16}]},
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{
+      label:c=>{const d=DATA.strength[c.dataIndex];return ` ${d.score} · ${(d.winrate*100).toFixed(0)}% wins · ${d.matches} games`;}}}},
+    scales:{x:{grid:{color:C.line}},y:{grid:{display:false}}}}});
+
+// Mexico PPG line
+new Chart(document.getElementById('mexicoChart'),{
+  type:'line',
+  data:{labels:DATA.mexico.map(d=>d.year),
+    datasets:[{data:DATA.mexico.map(d=>d.ppg),borderColor:C.green,
+      backgroundColor:'rgba(0,216,115,.12)',fill:true,tension:.35,
+      pointRadius:3,pointBackgroundColor:C.green,pointBorderColor:'#fff',pointBorderWidth:1,
+      borderWidth:2.5}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>` ${c.parsed.y} pts/partido`}}},
+    scales:{x:{grid:{display:false}},y:{grid:{color:C.line},title:{display:true,text:'PPG'}}}}});
+
+// Goals per match
+new Chart(document.getElementById('goalsChart'),{
+  type:'line',
+  data:{labels:DATA.goals.map(d=>d.year),
+    datasets:[{data:DATA.goals.map(d=>d.gpm),borderColor:C.accent,
+      backgroundColor:'rgba(61,123,255,.10)',fill:true,tension:.3,
+      pointRadius:2,borderWidth:2.5}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{x:{grid:{display:false}},y:{grid:{color:C.line}}}}});
+
+// Importance
+let impChart;
+function drawImportance(lang){
+  if(impChart)impChart.destroy();
+  impChart=new Chart(document.getElementById('importanceChart'),{
+    type:'bar',
+    data:{labels:DATA.importance.map(d=>lang==='es'?d.feature:d.feature_en),
+      datasets:[{data:DATA.importance.map(d=>d.value),backgroundColor:C.red,
+        borderRadius:5,barThickness:18}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false}},
+      scales:{x:{grid:{color:C.line}},y:{grid:{display:false}}}}});
+}
+drawImportance('es');
+
+// Language toggle
+function setLang(lang){
+  document.documentElement.lang=lang;
+  document.querySelectorAll('[data-es]').forEach(el=>{
+    el.innerHTML = lang==='es'?el.dataset.es:el.dataset.en;});
+  document.getElementById('b-es').classList.toggle('on',lang==='es');
+  document.getElementById('b-en').classList.toggle('on',lang==='en');
+  drawImportance(lang);
+}
+</script>
+</body>
+</html>
